@@ -8,10 +8,12 @@
     "export": "next export"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "cypress": "^10.0.3",
     "next": "^12.1.5",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "sharethis-reactjs": "^1.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
