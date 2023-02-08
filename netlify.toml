@@ -4,3 +4,6 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[plugins]]
+  package = "tailwindcss"
