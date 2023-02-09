@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import ShareThis from '../components/ShareThis';
 
 
-function Application({ Component, pageProps }) {
+function Application() {
   return  (
        <div>
        
