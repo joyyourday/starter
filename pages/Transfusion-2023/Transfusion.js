@@ -1,11 +1,43 @@
 
 import Link from 'next/link'
-
+import Rating from 'pages/Rating';
+import Head from 'next/head'
+import React, { useEffect, useState } from 'react';
 
 const Transfusion = () => {
+  useEffect(() => {
+    const handleContextmenu = e => {
+        e.preventDefault()
+    }
+    document.addEventListener('contextmenu', handleContextmenu)
+    return function cleanup() {
+        document.removeEventListener('contextmenu', handleContextmenu)
+    }
+}, [ ])
   return (
     <div>
- 
+     <Head>
+     <title>Watch 3:33 (2022) Full Movie Online Free | Mxplayer Movies™</title>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="keywords" content="333 movie,333 movie (2022),mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online,hollywood movies,bollywood movies, hindi movies,marathi movies,telugu movies,kannada movies,333 movie online,watch 333 movie ,watch 333 movie online,333 movie download,333 movie 2022,333 movie watch online,333 movie latest, 333 movie  videos,333 movie trailer,333 movie cast,333 movie story,333 movie release date,333 movie in hindi,333 movie mx player,333 movie watch online free,333 movie free download,333 movie download,333 movie online watch,mx player 333 movie,333 movie online free,333 movie cast,index of 333 movie,333 movie cast name,333 movie star cast" />
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:type" content="movie" />
+<meta property="og:title" content="Watch 3:33 (2022) Full Movie Online Free | Mxplayer Movies™" />
+<meta property="og:url" content="https://mxplayermovies.netlify.app/333/" />
+<meta property="og:image" content="../../public/og_image.jpg" />
+<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Watch 3:33 (2022) Full Movie Online Free | Mxplayer Movies™" />
+<meta name="twitter:image" content="../../public/og_image.jpg" />
+<meta name="description" content="Watch 3:33 Full Movie Online on Mxplayer Movies™, You can also download 3:33 (2022) in full HD quality to watch later offline." />
+
+
+      </Head>
+
     <h1 className="mb-4 text-2xl font-bold leading-none tracking-tight text-gray-900  text-center md:text-5xl lg:text-6xl dark:text-white">Watch Movies -2023 </h1>
 
      
@@ -14,13 +46,14 @@ const Transfusion = () => {
     
     <h3 className="mb-9 text-bg  text-black-500  text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
     <div className="flex flex-col space-y-4 ...">
+    <Rating /></div>
+    <div className="flex flex-col space-y-4 ...">
     <div className="flex items-center  justify-center">
     <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
     <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Second star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
     <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Third star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-    <svg aria-hidden="true" className="w-10 h-10 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fourth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
     <svg aria-hidden="true" className="w-10 h-10 text-gray-300 dark:text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fifth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-   <strong>4.95 out of 5</strong>
+   <strong>5.3 out of 10</strong>
     
 </div>
 <h2 className=" text-medium font-sm text-center dark:text-white text-blue-800"><strong>Genre:</strong> Action, Drama & Thriller</h2>
