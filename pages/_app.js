@@ -11,6 +11,7 @@ function Application({ Component, pageProps }) {
   <Component {...pageProps} />
   <Footer />
   <ShareThis />
+
   </div>
   );
 }
