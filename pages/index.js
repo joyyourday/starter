@@ -27,7 +27,7 @@ const scrollSearch = myKey => {
       <div class="bg-[#1a202c] ">
       <Head>
         <title>Mxplayer Movies™</title>
-        <meta name="google-site-verification" content="LQqqAT7p5ecKWDs6eD0M-Usqw84L6HfEBwNzf0R8Meg" />   
+      
 	<meta name="description" content="Watch Watch now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<meta name="keywords" content="mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
