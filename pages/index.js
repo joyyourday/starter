@@ -215,7 +215,7 @@ const scrollSearch = myKey => {
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/public../../pamasahe-2022.webp' alt='PAMASAHE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
         <div className="flex-grow">
-          <h2 className="text-white text-lg title-font text-white mb-3 font-bold md:text-lg ">PAMASAHE - 2023</h2>
+          <h2 className="text-lg title-font text-white mb-3 font-bold md:text-lg ">PAMASAHE - 2023</h2>
           <h3 className="leading-relaxed text-white text-base"> A penniless mother, with her infant child, takes on a journey by land and sea to find her husband in Manila. But this trip won't be free for she has to use her.</h3>
         
           <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong>  </h3>
@@ -229,7 +229,7 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ADULT, HOT +18</strong>
        </div>
        <a href="../../Adult/Pamasahe-2023/PSEAds">
-          <button className="flex mx-auto mt-10 text-white-600 bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
