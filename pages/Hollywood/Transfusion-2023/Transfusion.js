@@ -31,13 +31,13 @@ const scrollSearch = myKey => {
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch Transfusion - 2023 Full Movie Online Free | Mxplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Transfusion -2023/" />
-<meta property="og:image" content="../../public/og_image.jpg" />
+<meta property="og:image" content="../../og_image.jpg" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Transfusion - 2023 Full Movie Online Free | Mxplayer Movies™" />
-<meta name="twitter:image" content="../../public/og_image.jpg" />
+<meta name="twitter:image" content="../../og_image.jpg" />
 <meta name="description" content="Watch Transfusion  Full Movie Online on Mxplayer Movies™, You can also download Transfusion - 2023 in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>

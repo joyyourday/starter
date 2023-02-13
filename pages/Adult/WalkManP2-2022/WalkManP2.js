@@ -31,13 +31,13 @@ const scrollSearch = myKey => {
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch Walkman Part 2 (2023) | Mxplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/WalkManP2-2022/" />
-<meta property="og:image" content="https://mxplayermovies.netlify.app/public/walkman2-2022.webp" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/walkman2-2022.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Walkman Part 2 (2023) | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://mxplayermovies.netlify.app/public/walkman2-2022.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/walkman2-2022.webp" />
 <meta name="description" content="Watch WalkManP1 Full Movie Online on Mxplayer Movies™, You can also download Walkman Part 2 (2023) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>

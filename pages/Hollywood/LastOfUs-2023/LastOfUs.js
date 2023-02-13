@@ -31,13 +31,13 @@ const scrollSearch = myKey => {
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch The Last of Us (2023) Full Movie Online Free | Mxplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/LastOfUs-2023/" />
-<meta property="og:image" content="https://mxplayermovies.netlify.app/public/the-last-of-us-2023.webp" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/the-last-of-us-2023.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch The Last of Us (2023) Full Movie Online Free | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://mxplayermovies.netlify.app/public/the-last-of-us-2023.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/the-last-of-us-2023.webp" />
 <meta name="description" content="Watch Last Of Us Full Movie Online on Mxplayer Movies™, You can also download The Last of Us (2023) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>

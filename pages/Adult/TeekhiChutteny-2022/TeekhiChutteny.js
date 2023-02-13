@@ -35,7 +35,7 @@ const scrollSearch = myKey => {
 
   | Mxplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/TeekhiChutteny-2022/" />
-<meta property="og:image" content="https://mxplayermovies.netlify.app/public/teekhi-chutney-part2-2022.webp" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/teekhi-chutney-part2-2022.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
@@ -43,7 +43,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch Teekhi Chutney Part 2 (2023)
 
   | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://mxplayermovies.netlify.app/public/teekhi-chutney-part2-2022.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/teekhi-chutney-part2-2022.webp" />
 <meta name="description" content="Watch TeekhiChutteny Full Movie Online on Mxplayer Movies™, You can also download Teekhi Chutney Part 2 (2023)
 
  in full HD quality to watch later offline." />
