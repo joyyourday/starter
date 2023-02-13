@@ -31,13 +31,13 @@ const scrollSearch = myKey => {
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch Young Kindaichi PART 1 (2023) | Mxplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/YoungKindaichi-2023/" />
-<meta property="og:image" content="https://mxplayermovies.netlify.app/the-files-of-young-kindaichi-2023.webp" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/public/the-files-of-young-kindaichi-2023.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Young Kindaichi PART 1 (2023) | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://mxplayermovies.netlify.app/the-files-of-young-kindaichi-2023.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/public/the-files-of-young-kindaichi-2023.webp" />
 <meta name="description" content="Watch Young Kindaichi Part 1 Full Movie Online on Mxplayer Movies™, You can also download Young Kindaichi PART 1 (2023) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>
@@ -86,10 +86,8 @@ const scrollSearch = myKey => {
 
   <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
  
-    
-    
-    <p className="flex flex-col items-center justify-center  ">
-    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/c0s1k2y2ijdp.html"  position="relative" width={500} height={250} ></iframe></p>
+ 
+    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/c0s1k2y2ijdp.html"  position="relative"  height={350} ></iframe>
     </div>
 
     

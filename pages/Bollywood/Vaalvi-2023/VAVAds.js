@@ -31,7 +31,7 @@ export default () => {
         <div class="bg-gray-50 px-4 py-3 sm:flex flex flex-col items-center justify-center sm:flex-row-reverse sm:px-6">
         <Link href="../../Bollywood/Vaalvi-2023/Vaalvi" >
           <button type="button" class="mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-bold text-gray-700 shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">Skip Ad</button></Link>
-          <a href="/" className="flex title-font  items-center md:justify-start justify-center text-gray-900"> 
+          <a href="/" className="flex title-font my-12 items-center md:justify-start justify-center text-gray-900"> 
           <button type="button" class="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-bold text-white shadow-bg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm">Exit</button></a>
         </div>
       </div>

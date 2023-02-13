@@ -48,8 +48,7 @@ const scrollSearch = myKey => {
 	<meta name="twitter:title" content="Mxplayer Movies™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>
+ 
  
       </Head>
 <main>

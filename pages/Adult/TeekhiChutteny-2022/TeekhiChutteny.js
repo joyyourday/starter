@@ -31,11 +31,9 @@ const scrollSearch = myKey => {
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Teekhi Chutney Part 2 (2023)
-
-  | Mxplayer Movies™" />
+<meta property="og:title" content="Watch Teekhi Chutney Part 2 (2023) | Mxplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/TeekhiChutteny-2022/" />
-<meta property="og:image" content="https://mxplayermovies.netlify.app/teekhi-chutney-part2-2022.webp" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/public/teekhi-chutney-part2-2022.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
@@ -43,7 +41,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:title" content="Watch Teekhi Chutney Part 2 (2023)
 
   | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://mxplayermovies.netlify.app/teekhi-chutney-part2-2022.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/public/teekhi-chutney-part2-2022.webp" />
 <meta name="description" content="Watch TeekhiChutteny Full Movie Online on Mxplayer Movies™, You can also download Teekhi Chutney Part 2 (2023)
 
  in full HD quality to watch later offline." />
@@ -54,7 +52,7 @@ const scrollSearch = myKey => {
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
       </Head>
       <div class="bg-[#1a202c]">
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Movies Teekhi Chutney Part 2 (2023)
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Teekhi Chutney Part 2 (2023)
 
  </h1>
 
@@ -83,10 +81,7 @@ const scrollSearch = myKey => {
 
   <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
  
-    
-    
-    <p className="flex flex-col items-center justify-center  ">
-    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/7ttprdcl9snb.html"  position="relative" width={500} height={250} ></iframe></p>
+     <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/7ttprdcl9snb.html"  position="relative"  height={350} ></iframe>
     </div>
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">

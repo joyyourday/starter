@@ -22,22 +22,22 @@ const scrollSearch = myKey => {
   return (
     <div>
      <Head>
-     <title>Watch Transfusion - 2023 Full Movie Online Free | Mxplayer Movies™</title>
+     <title>Watch Transfusion (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of transfusion,transfusion - 2023 movie,watch transfusion - 2023 movie online,transfusion - 2023 movie download,transfusion - 2023 movie trailer" />
 
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Transfusion - 2023 Full Movie Online Free | Mxplayer Movies™" />
+<meta property="og:title" content="Watch Transfusion - 2023 | Mxplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Transfusion -2023/" />
-<meta property="og:image" content="../../og_image.jpg" />
+<meta property="og:image" content="../../public/og_image.jpg" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Transfusion - 2023 Full Movie Online Free | Mxplayer Movies™" />
-<meta name="twitter:image" content="../../og_image.jpg" />
+<meta name="twitter:title" content="Watch Transfusion - 2023 | Mxplayer Movies™" />
+<meta name="twitter:image" content="../../public/og_image.jpg" />
 <meta name="description" content="Watch Transfusion  Full Movie Online on Mxplayer Movies™, You can also download Transfusion - 2023 in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>
@@ -46,7 +46,7 @@ const scrollSearch = myKey => {
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
       </Head>
       <div class="bg-[#1a202c]">
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Movies Transfusion - 2023 </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Transfusion (2023) </h1>
 
      
     <iframe className="w-full aspect-w-16 aspect-h-9" src="https://sbhight.com/e/yfh2ie30jr96.html" height={550}></iframe>
@@ -64,19 +64,19 @@ const scrollSearch = myKey => {
    <h2 className="text-white font-bold text-xl ">  5.3 out of 10</h2>
     
 </div>
-<h2 className=" text-medium font-sm text-center dark:text-white text-blue-800"><strong>Genre:</strong> Action, Drama & Thriller</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-blue-800"><strong>Release year:</strong> 2023</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-blue-800"><strong>Director:</strong> Matt Nable</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-blue-800"><strong>Country:</strong> USA</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-blue-800 "><strong>Starring:</strong> Sam Worthington, Phoebe Tonkin, Matt Nable, Susie Porter, Edward Carmody, Jeremy Lindsay Taylor, George Houvardas, Sam Cotton.</h2>
-<h2 className="text-medium font-sm text-center dark:text-white text-blue-800"><strong>Description:</strong> A former Special Forces operative thrust into the criminal underworld to keep his only son from being taken from him.</h2>
+<h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong> Action, Drama & Thriller</h2>
+<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
+<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong> Matt Nable</h2>
+<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Country:</strong> USA</h2>
+<h2 className="text-medium font-sm text-center dark:text-white text-white "><strong>Starring:</strong> Sam Worthington, Phoebe Tonkin, Matt Nable, Susie Porter, Edward Carmody, Jeremy Lindsay Taylor, George Houvardas, Sam Cotton.</h2>
+<h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Description:</strong> A former Special Forces operative thrust into the criminal underworld to keep his only son from being taken from him.</h2>
 
   <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
  
     
     
-    <p className="flex flex-col items-center justify-center  ">
-    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/mfl5rhs6ev0x.html"  position="relative" width={500} height={250} ></iframe></p>
+
+    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/mfl5rhs6ev0x.html"  position="relative"  height={350} ></iframe>
     </div>
 
     <div className="flex flex-col space-y-10 text-blue-600 text-center items-center justify-center">
@@ -209,13 +209,14 @@ Most Watch Movies & Tv Series.</h2>
   </button>
 </div>
 
-  <Link href="../hollywood">
-  <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-125 ease-in duration-500 cursor-pointer">  
+<Link href="../hollywood">
+  <h3 className="text-medium font-bold py-10 leading-normal m-10 mt-0 mb-2 text-blue-600 "> 
+  <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in duration-500 cursor-pointer">  
   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 ">
+ 
   Back To Hollywood Section
   </span>
-</button></Link>
-
+</button></h3></Link>
 </div>
     </div> </div>
   )

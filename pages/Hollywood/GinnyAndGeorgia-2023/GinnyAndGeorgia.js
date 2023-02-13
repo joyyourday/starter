@@ -22,22 +22,22 @@ const scrollSearch = myKey => {
   return (
     <div>
      <Head>
-     <title>Watch Ginny And Georgia (2023) Full Movie Online Free | Mxplayer Movies™</title>
+     <title>Watch Ginny And Georgia (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="keywords" content="mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of ginny and georgia,ginny and georgia (2023) movie,watch ginny and georgia (2023) movie online,ginny and georgia (2023) movie download,ginny and georgia (2023) movie trailer" />
 
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
-<meta property="og:title" content="Watch Ginny And Georgia (2023) Full Movie Online Free | Mxplayer Movies™" />
+<meta property="og:title" content="Watch Ginny And Georgia (2023) | Mxplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/GinnyAndGeorgia-2023/" />
-<meta property="og:image" content="https://mxplayermovies.netlify.app/ginny-georgia-2023.webp" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/public/ginny-georgia-2023.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Ginny And Georgia (2023) Full Movie Online Free | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://mxplayermovies.netlify.app/ginny-georgia-2023.webp" />
+<meta name="twitter:title" content="Watch Ginny And Georgia (2023) | Mxplayer Movies™" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/public/ginny-georgia-2023.webp" />
 <meta name="description" content="Watch Ginny And Georgia Full Movie Online on Mxplayer Movies™, You can also download Ginny And Georgia (2023) in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>
@@ -46,7 +46,7 @@ const scrollSearch = myKey => {
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
       </Head>
       <div class="bg-[#1a202c]">
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Movies Ginny And Georgia (2023) </h1>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Ginny And Georgia (2023) </h1>
 
      
     <iframe className="w-full aspect-w-16 aspect-h-9" src="https://sbhight.com/e/7n7lqjacin94.html" height={550}></iframe>
@@ -73,10 +73,7 @@ const scrollSearch = myKey => {
 
   <h2 className="text-4xl font-bold text-center text-white  ">Watch Offical Trailer</h2>
  
-    
-    
-    <p className="flex flex-col items-center justify-center  ">
-    <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/n08y6va4qtpf.html"  position="relative" width={500} height={250} ></iframe></p>
+     <iframe className=" aspect-w-16 aspect-h-9  " src="https://sbhight.com/e/n08y6va4qtpf.html"  position="relative"  height={350} ></iframe>
     </div>
 
     <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
