@@ -35,7 +35,7 @@ const scrollSearch = myKey => {
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />  
 	<meta name="robots" content="index, follow, archive" />
-	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="../../favicon.ico" />
 	<meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
