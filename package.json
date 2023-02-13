@@ -13,7 +13,8 @@
     "next": "^12.1.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "sharethis-reactjs": "^1.6.0"
+    "sharethis-reactjs": "^1.6.0",
+    "tw-elements": "^1.0.0-alpha13"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
