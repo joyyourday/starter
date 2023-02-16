@@ -14,6 +14,37 @@ const LastOfUs  = () => {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
+const schemaData   = {
+  "@context": "https://schema.org",
+  
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mxplayermovies.netlify.app/Hollywood/LastOfUs-2023/LastOfUs"
+    
+  },
+  "headline": "The Last of Us - 2023 | Mxplayer Movies™",
+  "image": "https://mxplayermovies.netlify.app/the-last-of-us-2023.webp",
+
+  "datePublished": '2023-01-01T09:00:00.000Z',
+  "dateModified": '2023-01-01T09:00:00.000Z',
+  "author": [{
+      "@type": "Person",
+      "name": "Mxplayer Movies",
+      "url": "https://mxplayermovies.netlify.app/"
+    }],
+  
+  "publisher": {
+      "@type": "Organization",
+      "name": "Mxplayer Movies",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://mxplayermovies.netlify.app/og_image.jpg"
+      }
+    },
+  "description": "Mxplayer Movies™ The Last of Us - 2023 | Watch now the Best TV shows and Movies"
+
+};
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -21,26 +52,29 @@ const scrollSearch = myKey => {
 
   return (
     <div>
+               <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+  />
      <Head>
      <title>Watch The Last of Us (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of Last Of Us,The Last of Us (2023) movie,watch The Last of Us (2023) movie online,The Last of Us (2023) movie download,The Last of Us (2023) movie trailer" />
-
+<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of Last Of Us,The Last of Us (2023) movie,watch The Last of Us (2023) movie online,The Last of Us (2023) movie download,The Last of Us (2023) movie trailer" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch The Last of Us (2023) | Mxplayer Movies™" />
-<meta property="og:url" content="https://mxplayermovies.netlify.app/LastOfUs-2023/" />
-<meta property="og:image" content="https://mxplayermovies.netlify.app/public/the-last-of-us-2023.webp" />
+<meta property="og:url" content="https://mxplayermovies.netlify.app/Hollywood/LastOfUs-2023/LastOfUs" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/the-last-of-us-2023.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch The Last of Us (2023) | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://mxplayermovies.netlify.app/public/the-last-of-us-2023.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/the-last-of-us-2023.webp" />
 <meta name="description" content="Watch Last Of Us Full Movie Online on Mxplayer Movies™, You can also download The Last of Us (2023) in full HD quality to watch later offline." />
-<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706824"></script>
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5706898"></script>
+<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+
  
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
@@ -137,53 +171,35 @@ Most Watch Movies & Tv Series.</h2>
   <div className="carousel-inner relative w-full cursor-pointer overflow-hidden">
 
 <div className="carousel-item active relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="../../../pathan-2023.webp"
+<img
+    src="/pathan-2023.webp"
     className="block w-full"
-    alt="Pathaan - 2023"
-  /></Link>
- 
+    alt="Pathaan - 2023"/>
 </div>
-
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="../../../the-last-of-us-2023.webp"
+<img
+    src="/the-last-of-us-2023.webp"
     className="block w-full"
-    alt="The Last of Us - 2023"
-  /></Link>
-
+    alt="The Last of Us - 2023"/>
 </div>
-
-
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="../../../pamasahe-2022.webp"
+<img
+    src="/pamasahe-2022.webp"
     className="block w-full"
-    alt="Pamasahe - 2022"
-  /></Link>
-  
+    alt="Pamasahe - 2022"/>
 </div>
-
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
-  <img
-    src="../../../hunters-2023.webp"
+<img
+    src="/hunters-2023.webp"
     className="block w-full"
-    alt="Hunters - 2023"
-  /></Link>
-  
+    alt="Hunters - 2023"/>
 </div>
-
 <div className="carousel-item relative float-left w-full">
-<Link href="../../Bollywood/Dhokha-2022/dhokha" >
+
   <img
-    src="../../../the-last-heist-2022.webp"
+    src="/the-last-heist-2022.webp"
     className="block w-full"
-    alt="The Last Heist - 2022"
-  /></Link>
+    alt="The Last Heist - 2022"/>
  
 </div>
 </div>
