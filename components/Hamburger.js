@@ -9,29 +9,29 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Mxplayer Movies™</title>
+      <title>Uwatchfree™</title>
       <meta name="description" content="Watch Watch now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="uwatchfree,uwatchfreemovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />  
 	<meta name="robots" content="index, follow, archive" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="Uwatchfree™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="Uwatchfree™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://mxplayermovies.netlify.app/" />
+	<meta property="og:url" content="https://uwatchfree.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+	<meta property="og:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://uwatchfree.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Mxplayer Movies™ " />
+	<meta name="twitter:title" content="Uwatchfree™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://uwatchfree.vercel.app/og_image.jpg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className="w-full bg-gray-800 shadow">
@@ -39,7 +39,7 @@ export default function Home() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
            
-          <Image src='/logo.png' alt='Logo' width={325} height={60} className="rounded-3xl "/>
+          <Image src='/logo.png' alt='Logo' width={750} height={121} className="rounded-3xl "/>
               <a href="/">
                 
               </a>

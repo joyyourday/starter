@@ -1,10 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 export default () => {
     return (
         <div>
-            
+            <Head>
+     <title>Watch An Affair To Forget - 2023 | Mxplayer Movies™</title>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,index of an affair to forget,an affair to forget - 2023 movie,watch an affair to forget - 2023 movie online,an affair to forget - 2023 movie download,an affair to forget - 2023 movie trailer" />
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:type" content="movie" />
+<meta property="og:title" content="Watch An Affair To Forget - 2023 | Mxplayer Movies™" />
+<meta property="og:url" content="https://mxplayermovies.netlify.app/Adult/AnAffairToForget-2022/AnAffairToForget" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/an-affair-to-forget-2022.webp" />
+<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Watch An Affair To Forget - 2023 | Mxplayer Movies™" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/an-affair-to-forget-2022.webp" />
+<meta name="description" content="Watch An Affair To Forget Full Movie Online on Mxplayer Movies™, You can also download An Affair To Forget - 2023 in full HD quality to watch later offline." />
+      </Head>
             <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
 
   <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
@@ -20,7 +39,7 @@ export default () => {
             <Image class=""  src='/adult-18.svg' alt='Logo' width={200} height={200}  loading="lazy"/>
             </div>
             <div class="mt-5 text-center sm:mt-0 sm:ml-4 sm:text-left">
-              <h3 class="text-xl font-bold leading-6 text-red-600" id="modal-title">Are You Sure You Want to Continue?</h3>
+              <h1 class="text-xl font-bold leading-6 text-red-600" id="modal-title">Are You Sure You Want to Continue?</h1>
               <div class="mt-2">
                 <p class="text-lg font-bold text-gray-500">This Part of the Website Requires you to be 18 years of Age or Older.</p>
                 </div>

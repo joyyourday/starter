@@ -45,6 +45,41 @@ const schemaData   = {
   "description": "Mxplayer Movies™ Hollywood | Watch now the Best TV shows and Movies"
 
 };
+const maxData   = {
+
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Hollywood",
+    "item": "https://mxplayermovies.netlify.app/Hollywood/hollywood"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Bollywood",
+    "item": "https://mxplayermovies.netlify.app/Bollywood/bollywood"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Adult",
+    "item": "https://mxplayermovies.netlify.app/Adult/adult"
+  }]
+};
+const searchData   = {
+  "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.example.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://query.example.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      
+  }
+  };
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -57,18 +92,26 @@ const scrollSearch = myKey => {
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
-      <div class="bg-[#1a202c]">
+    <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
+  />
+<script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
+  />
+      <div className="bg-[#1a202c]">
       <Head>
-        <title>Mxplayer Movies™</title>
+        <title>Mxplayer Movies™ Hollywood</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+  <meta name="keywords" content="mxplayer movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
-	<meta name="robots" content="index, follow, archive" />
+	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 	<meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
@@ -86,7 +129,17 @@ const scrollSearch = myKey => {
 	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
- 
+  <link rel="canonical" href="https://mxplayermovies.netlify.app/Hollywood/" />
+  <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+  <link rel="alternate" hreflang="en-us" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://mxplayermovies.netlify.app/"/>
       </Head>
        
       <main>
@@ -95,9 +148,160 @@ const scrollSearch = myKey => {
     <section className="text-gray-600 body-font">
     <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white">Mxplayer Movies™ Watch Latest Movies</h1>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
+          <a href="../../Hollywood/TheWeapon-2023/TheWeapon" >
+         
+ <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-weapon-2023.webp' alt='THE WEAPON - 2023' width={400} height={300}  loading="lazy"/></a>
+          </div>
+          <div className="flex-grow">
+            <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">THE WEAPON - 2023</h2>
+            <p className="leading-relaxed text-white text-base">Dallas is a one-man killing machine on a mysterious rampage. His attacks on biker gangs and the Vegas mob boss who's holding Dallas's girlfriend hostage.</p>
+          
+            <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong> </h3>
+            <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                4.5 out of 10</h3>
+          
+           
+                <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
+       </div>
+          
+       <a href="../../Hollywood/TheWeapon-2023/TheWeapon" >
+         <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+           
+          </div>
+        </div>
+        <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
+          <a href="../../Hollywood/CarnivalRow-2023/CarnivalRowP1" >
+         
+ <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/carnival-row-2023.webp' alt='CARNIVAL ROW - 2023' width={400} height={300}  loading="lazy"/></a>
+          </div>
+          <div className="flex-grow">
+            <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">CARNIVAL ROW - 2023</h2>
+            <p className="leading-relaxed text-white text-base">A human detective and a fairy rekindle a dangerous affair in a Victorian fantasy world, when a string of murders reveals an unimaginable monster.</p>
+          
+            <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong> </h3>
+            <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                7.4 out of 10</h3>
+          
+           
+                <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
+       </div>
+          
+       <a href="../../Hollywood/CarnivalRow-2023/CarnivalRowP1" >
+         <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+           
+          </div>
+        </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/BlackPantherWaka-2023/BPWAds" >
+          <a href="../../Hollywood/AntMan-2023/AntMan" >
+         
+ <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/ant-Man-and-the-wasp-2023.webp' alt='ANT-MAN AND THE Wasp - 2023' width={400} height={300}  loading="lazy"/></a>
+          </div>
+          <div className="flex-grow">
+            <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">ANT-MAN AND THE Wasp... - 2023</h2>
+            <p className="leading-relaxed text-white text-base">Scott Lang and Hope Van Dyne, along with Hank Pym and Janet Van Dyne, explore the Quantum Realm, where they interact with strange creatures.</p>
+          
+            <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong> </h3>
+            <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.4 out of 10</h3>
+          
+           
+                <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
+       </div>
+          
+       <a href="../../Hollywood/AntMan-2023/AntMan" >
+       <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+           
+          </div>
+        </div>
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
+          <a href="../../Hollywood/TheArk-2023/TheArkP1" >
+         
+ <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-ark-2023.webp' alt='THE ARK - 2023' width={400} height={300}  loading="lazy"/></a>
+          </div>
+          <div className="flex-grow">
+            <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">THE ARK - 2023</h2>
+            <p className="leading-relaxed text-white text-base">Follows the remaining crew of a spacecraft known as Ark One, who must become the best versions of themselves to stay on course.</p>
+          
+            <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong> </h3>
+            <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                8.9 out of 10</h3>
+          
+           
+                <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
+       </div>
+          
+       <a href="../../Hollywood/TheArk-2023/TheArkP1" >
+       <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+           
+          </div>
+        </div>
+        <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
+          <a href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP1" >
+         
+ <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/mayfair-witches-2023.webp' alt='MAYFAIR WITCHES - 2023' width={400} height={300}  loading="lazy"/></a>
+          </div>
+          <div className="flex-grow">
+            <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">MAYFAIR WITCHES - 2023</h2>
+            <p className="leading-relaxed text-white text-base">Follows a neurosurgeon who discovers she is the unlikely heir to a family of witches. She must contend with a sinister presence that has haunted.</p>
+          
+            <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong> </h3>
+            <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center   justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                7.9 out of 10</h3>
+          
+           
+                <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
+       </div>
+          
+       <a href="../../Hollywood/MayfairWitches-2023/MayfairWitchesP1" >
+       <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+           
+          </div>
+        </div>
+        <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
+          <a href="../../Hollywood/InFormTheCold-2023/InFormTheColdP1" >
+         
+ <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/in-from-the-cold-2023.webp' alt='IN FORM THE COLD - 2023' width={400} height={300}  loading="lazy"/></a>
+          </div>
+          <div className="flex-grow">
+            <h2 className="text-white text-lg title-font  mb-3 font-bold md:text-lg ">IN FORM THE COLD - 2023</h2>
+            <p className="leading-relaxed text-white text-base">Exposed as an ex-Russian spy, an American single mom must juggle family life and unique shape-shifting skills in a battle against an insidious enemy.</p>
+          
+            <h3 className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0" > <strong>IMDb RATING:</strong> </h3>
+            <h3 className="w-70 h-50 inline-flex items-center font-bold py-2 justify-center  text-yellow-500 mb-5 flex-shrink-0" >  <div className="flex items-center justify-center">
+    <svg aria-hidden="true" className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div>
+                6.9 out of 10</h3>
+          
+           
+                <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
+       <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
+       </div>
+          
+       <a href="../../Hollywood/InFormTheCold-2023/InFormTheColdP1" >
+         <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+           
+          </div>
+        </div>
+             
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
+          <a href="../../Hollywood/BlackPantherWaka-2023/BlackPantherWaka" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/black-panther-wakanda-forever-2022.webp' alt='BLACK PANTHER WAKANDA FOREVER - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -115,13 +319,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
           
-       <a href="../../Hollywood/BlackPantherWaka-2023/BPWAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/BlackPantherWaka-2023/BlackPantherWaka"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/ExtraOrdinary-2023/EXTAds" >
+          <a href="../../Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/extraordinary-2023.webp' alt='EXTRAORDINARY - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -139,13 +343,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
           
-       <a href="../../Hollywood/ExtraOrdinary-2023/EXTAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/ExtraOrdinary-2023/ExtraOrdinaryP1"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/Fear-2023/FERAds" >
+          <a href="../../Hollywood/Fear-2023/Fear" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/fear-2023.webp' alt='FEAR - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -163,13 +367,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>HORROR, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/Fear-2023/FERAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/Fear-2023/Fear"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/Imani-2023/IMNAds" >
+          <a href="../../Hollywood/Imani-2023/Imani" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/imani-2023.webp' alt='IMANI - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -187,13 +391,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/Imani-2023/IMNAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/Imani-2023/Imani"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/Kaleidoscope-2023/KDSAds" >
+          <a href="../../Hollywood/Kaleidoscope-2023/KaleidoscopeP1" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/kaleidoscope-2022.webp' alt='KALEIDOSCOPE - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -211,13 +415,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>CRIME, ACTION</strong>
        </div>
           
-       <a href="../../Hollywood/Kaleidoscope-2023/KDSAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/Kaleidoscope-2023/KaleidoscopeP1"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/KnockAtTheCabin-2023/KACAds" >
+          <a href="../../Hollywood/KnockAtTheCabin-2023/KnockAtTheCabin" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/knock-at-the-cabin-2023.webp' alt='KNOCK AT THE CABIN - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -235,13 +439,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>HORROR, MYSTERY</strong>
        </div>
           
-       <a href="../../Hollywood/KnockAtTheCabin-2023/KACAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/KnockAtTheCabin-2023/KnockAtTheCabin"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/LockwoodAndCo-2023/LWCAds" >
+          <a href="../../Hollywood/LockwoodAndCo-2023/LockwoodAndCoP1" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/lockwood-and-co-2023.webp' alt='LOCKWOOD AND CO - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -259,13 +463,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
           
-       <a href="../../Hollywood/LockwoodAndCo-2023/LWCAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/LockwoodAndCo-2023/LockwoodAndCoP1"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/NightTrain-2023/NGTAds" >
+          <a href="../../Hollywood/NightTrain-2023/NightTrain" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/night-train-2023.webp' alt='NIGHT TRAIN - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -283,13 +487,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/NightTrain-2023/NGTAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/NightTrain-2023/NightTrain"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/PockerFace-2023/POFAds" >
+          <a href="../../Hollywood/PockerFace-2023/PockerFace" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/poker-face-2022.webp' alt='POKER FACE - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -307,13 +511,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/PockerFace-2023/POFAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/PockerFace-2023/PockerFace"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/TeenWolfTheMovie-2023/TWMAds" >
+          <a href="../../Hollywood/TeenWolfTheMovie-2023/TeenWolfTheMovie" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/teen-wolf-the-movie-2023.webp' alt='TEEN WOLF THE MOVIE - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -331,13 +535,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>ACTION, FANTASY</strong>
        </div>
           
-       <a href="../../Hollywood/TeenWolfTheMovie-2023/TWMAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/TeenWolfTheMovie-2023/TeenWolfTheMovie"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/The3rdGuest-2023/T3GAds" >
+          <a href="../../Hollywood/The3rdGuest-2023/The3rdGuest" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-3rd-guest-2023.webp' alt='THE 3RD GUEST - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -355,13 +559,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>DRAMA, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/The3rdGuest-2023/T3GAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/The3rdGuest-2023/The3rdGuest"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/TheMummyResurrection-2023/TMRAds" >
+          <a href="../../Hollywood/TheMummyResurrection-2023/TheMummyResurrection" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-mummy-resurrection-2022.webp' alt='THE MUMMY RESURRECTION - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -379,13 +583,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>HORROR, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/TheMummyResurrection-2023/TMRAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/TheMummyResurrection-2023/TheMummyResurrection"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/TheRig-2023/TRGAds" >
+          <a href="../../Hollywood/TheRig-2023/TheRigP1" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/the-rig-2023.webp' alt='THE RIG - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -403,13 +607,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>DRAMA, SCI-FI</strong>
        </div>
           
-       <a href="../../Hollywood/TheRig-2023/TRGAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/TheRig-2023/TheRigP1"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/TulsaKing-2023/TSKAds" >
+          <a href="../../Hollywood/TulsaKing-2023/TulsaKingP1" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/tulsa-king-2023.webp' alt='TULSA KING - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -427,13 +631,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>CRIME, DRAMA</strong>
        </div>
           
-       <a href="../../Hollywood/TulsaKing-2023/TSKAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/TulsaKing-2023/TulsaKingP1"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/WakingKarma-2023/WKMAds" >
+          <a href="../../Hollywood/WakingKarma-2023/WakingKarma" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/waking-karma-2023.webp' alt='WAKING KARMA - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -451,13 +655,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>HORROR, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/WakingKarma-2023/WKMAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/WakingKarma-2023/WakingKarma"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">
-          <a href="../../Hollywood/Transfusion-2023/TranAds" >
+          <a href="../../Hollywood/Transfusion-2023/Transfusion" >
          
  <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert drop-shadowrounded-3xl" src='/transfusion-2023.webp' alt='TRANSFUSION - 2023' width={400} height={300}  loading="lazy"/></a>
           </div>
@@ -475,13 +679,13 @@ const scrollSearch = myKey => {
        <strong>GENRE :</strong> <strong>CRIME, THRILLER</strong>
        </div>
           
-       <a href="../../Hollywood/Transfusion-2023/TranAds"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
+       <a href="../../Hollywood/Transfusion-2023/Transfusion"> <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
            
           </div>
         </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Plane-2023/PLNAds">
+        <a href="../../Hollywood/Plane-2023/Plane">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/plane-2023.webp' alt='PLANE - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -499,14 +703,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
-       <a href="../../Hollywood/Plane-2023/PLNAds">
+       <a href="../../Hollywood/Plane-2023/Plane">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Narvik-2023/NRKAds">
+        <a href="../../Hollywood/Narvik-2023/Narvik">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/narvik-2022.webp' alt='NARVIK 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -524,14 +728,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>DARAM, WAR</strong>
        </div>
-       <a href="../../Hollywood/Narvik-2023/NRKAds">
+       <a href="../../Hollywood/Narvik-2023/Narvik">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/OperationFortune-2023/OFGAds">
+        <a href="../../Hollywood/OperationFortune-2023/OperationFortune">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/operation-fortune-ruse-de-uerre-2023.webp' alt='OPERATION FORTUNE... - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -549,14 +753,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>CRIME, THRILLER</strong>
        </div>
-       <a href="../../Hollywood/OperationFortune-2023/OFGAds">
+       <a href="../../Hollywood/OperationFortune-2023/OperationFortune">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Babylon-2023/BYLAds">
+        <a href="../../Hollywood/Babylon-2023/Babylon">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/babylon-2022.webp' alt='BABYLON - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -574,14 +778,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>COMEDY, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/Babylon-2023/BYLAds">
+       <a href="../../Hollywood/Babylon-2023/Babylon">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Devotion-2023/DVTAds">
+        <a href="../../Hollywood/Devotion-2023/Devotion">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/devotion-2023.webp' alt='DEVOTION - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -599,14 +803,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex flex-row text-white text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, WAR</strong>
        </div>
-       <a href="../../Hollywood/Devotion-2023/DVTAds">
+       <a href="../../Hollywood/Devotion-2023/Devotion">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Shahmaran-2023/SMRAds">
+        <a href="../../Hollywood/Shahmaran-2023/Shahmaran">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/shahmaran-2023.webp' alt='SHAHMARAN - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -624,14 +828,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ADVENTURE, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/Shahmaran-2023/SMRAds">
+       <a href="../../Hollywood/Shahmaran-2023/Shahmaran">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/JungE-2023/JGEAds">
+        <a href="../../Hollywood/JungE-2023/JungE">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/jung-e-2023.webp' alt='JUNG-E - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -649,14 +853,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
-       <a href="../../Hollywood/JungE-2023/JGEAds">
+       <a href="../../Hollywood/JungE-2023/JungE">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/TheOldWay-2023/TOWAds">
+        <a href="../../Hollywood/TheOldWay-2023/TheOldWay">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/the-old-way-2023.webp' alt='THE OLD WAY - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -674,14 +878,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, WESTERN</strong>
        </div>
-       <a href="../../Hollywood/TheOldWay-2023/TOWAds">
+       <a href="../../Hollywood/TheOldWay-2023/TheOldWay">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/VikingsValhalla-2023/VKVAds">
+        <a href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/vikings-valhalla-2023.webp' alt='VIKINGS VALHALLA - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -699,14 +903,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, ADVENTURE</strong>
        </div>
-       <a href="../../Hollywood/VikingsValhalla-2023/VKVAds">
+       <a href="../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
         <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Hunters-2023/HUNAds">
+        <a href="../../Hollywood/Hunters-2023/Hunters">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/hunters-2023.webp' alt='HUNTERS - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -724,14 +928,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>CRIME, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/Hunters-2023/HUNAds">
+       <a href="../../Hollywood/Hunters-2023/Hunters">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/GinnyAndGeorgia-2023/GAGAds">
+        <a href="../../Hollywood/GinnyAndGeorgia-2023/GinnyAndGeorgia">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/ginny-georgia-2023.webp' alt='GINNY & GEORGIA - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -749,14 +953,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>COMEDY, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/GinnyAndGeorgia-2023/GAGAds">
+       <a href="../../Hollywood/GinnyAndGeorgia-2023/GinnyAndGeorgia">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/LastOfUs-2023/LFUAds">
+        <a href="../../Hollywood/LastOfUs-2023/LastOfUs">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/the-last-of-us-2023.webp' alt='THE LAST OF US - 2023<' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -774,14 +978,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/LastOfUs-2023/LFUAds">
+       <a href="../../Hollywood/LastOfUs-2023/LastOfUs">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/YoungKindaichi-2023/FYKAds">
+        <a href="../../Hollywood/YoungKindaichi-2023/YoungKindaichiP1">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/the-files-of-young-kindaichi-2023.webp' alt='THE FLIS OF KINDA... - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -799,14 +1003,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>CRIME, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/YoungKindaichi-2023/FYKAds">
+       <a href="../../Hollywood/YoungKindaichi-2023/YoungKindaichiP1">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/Againsttheice/ATIAds" >
+        <a href="../../Hollywood/Againsttheice/againsttheice" >
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/against-the-ice-2022.webp' alt='AGAINST THE ICE - 2022' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -824,14 +1028,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>DRAMA, MYSTERY</strong>
        </div>
-       <a href="../../Hollywood/Againsttheice/ATIAds" >
+       <a href="../../Hollywood/Againsttheice/againsttheice" >
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/PlayDead-2023/PLDAds">
+        <a href="../../Hollywood/PlayDead-2023/PlayDead">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/play-dead-2022.webp' alt='PLAY DEAD - 2023' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -849,14 +1053,14 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>HORROR, DRAMA</strong>
        </div>
-       <a href="../../Hollywood/PlayDead-2023/PLDAds">
+       <a href="../../Hollywood/PlayDead-2023/PlayDead">
           <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
          
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <a href="../../Hollywood/TheLastHeist-2022/TLHAds">
+        <a href="../../Hollywood/TheLastHeist-2022/TheLastHeist">
      
 <Image className="scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl blur-invert  drop-shadowrounded-3xl"  src='/the-last-heist-2022.webp' alt='THE LAST HEIST - 2022' width={400} height={300}  loading="lazy"/></a>
         </div>
@@ -874,7 +1078,7 @@ const scrollSearch = myKey => {
              <div className="p-4 mx-5 py-1flex text-white flex-row text-center items-center">
        <strong>GENRE :</strong> <strong>ACTION, THRILLER</strong>
        </div>
-       <a href="../../Hollywood/TheLastHeist-2022/TLHAds">
+       <a href="../../Hollywood/TheLastHeist-2022/TheLastHeist">
         <button className="flex mx-auto mt-10 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  text-lg scale-100 hover:scale-125 ease-in duration-500 cursor-pointer rounded-3xl">Watch Now</button></a>
 
          
