@@ -57,17 +57,17 @@ const maxData   = {
     "@type": "ListItem",
     "position": 1,
     "name": "Hollywood",
-    "item": "https://hbomaxmovies.netlify.app/Hollywood/hollywood"
+    "item": "https://mxplayermovies.netlify.app/Hollywood/hollywood"
   },{
     "@type": "ListItem",
     "position": 2,
     "name": "Bollywood",
-    "item": "https://hbomaxmovies.netlify.app/Bollywood/bollywood"
+    "item": "https://mxplayermovies.netlify.app/Bollywood/bollywood"
   },{
     "@type": "ListItem",
     "position": 3,
     "name": "Adult",
-    "item": "https://hbomaxmovies.netlify.app/Adult/adult"
+    "item": "https://mxplayermovies.netlify.app/Adult/adult"
   }]
 };
 const searchData   = {
