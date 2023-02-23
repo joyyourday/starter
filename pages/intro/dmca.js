@@ -23,35 +23,35 @@ const Dmca = () => {
 	<meta property="og:image:width" content="720"/>
 	<meta property="og:title" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://MXPLAYER Movies.netlify.app/" />
+	<meta property="og:url" content="https://mxplayermovies.netlify.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
+	<meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="MXPLAYER Movies™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
   
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
   <link rel="alternate" hreflang="en-us" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-gb" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-ca" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-au" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-se" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-fr" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-dk" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-no" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="x-default" 
-	href="https://MXPLAYER Movies.netlify.app/"/>
+	href="https://mxplayermovies.netlify.app/"/>
       </Head>
          <div class="container my-24 px-6 mx-auto">
 
@@ -65,7 +65,7 @@ const Dmca = () => {
       </p>
     
       <p class="text-gray-500 mb-6">
-      We take copyright violations very seriously and will vigorously protect the rights of legal copyright owners. If you are the copyright owner of content which appears on the <a href='https://MXPLAYER Movies.netlify.app/' class="text-blue-500 mb-6" > MXPLAYER Movies.netlify.app</a> website and you did not authorize the use of the content you must notify us in writing in order for us to identify the allegedly infringing content and take action.
+      We take copyright violations very seriously and will vigorously protect the rights of legal copyright owners. If you are the copyright owner of content which appears on the <a href='https://mxplayermovies.netlify.app/' class="text-blue-500 mb-6" > mxplayermovies.netlify.app</a> website and you did not authorize the use of the content you must notify us in writing in order for us to identify the allegedly infringing content and take action.
       </p>
      
       <p class="text-gray-500 mb-6">

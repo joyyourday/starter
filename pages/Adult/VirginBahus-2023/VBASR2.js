@@ -23,18 +23,18 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://MXPLAYER Movies.netlify.app/Adult/VirginBahus-2023/VirginBahus"
+    "@id": "https://mxplayermovies.netlify.app/Adult/VirginBahus-2023/VirginBahus"
     
   },
   "headline": "Virgin Bahus - 2023 | MXPLAYER Movies™",
-  "image": "https://MXPLAYER Movies.netlify.app/virgin-bahus-2023.webp",
+  "image": "https://mxplayermovies.netlify.app/virgin-bahus-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "MXPLAYER Movies",
-      "url": "https://MXPLAYER Movies.netlify.app/"
+      "url": "https://mxplayermovies.netlify.app/"
     }],
   
   "publisher": {
@@ -42,7 +42,7 @@ const schemaData   = {
       "name": "MXPLAYER Movies",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://MXPLAYER Movies.netlify.app/og_image.jpg"
+        "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
   "description": "MXPLAYER Movies™ Virgin Bahus - 2023 | Watch now the Best TV shows and Movies"
@@ -68,17 +68,17 @@ const scrollSearch = myKey => {
 <meta property="og:site_name" content="MXPLAYER Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch Virgin Bahus (2023) | MXPLAYER Movies™" />
-<meta property="og:url" content="https://MXPLAYER Movies.netlify.app/Adult/VirginBahus-2023/VirginBahus" />
-<meta property="og:image" content="https://MXPLAYER Movies.netlify.app/virgin-bahus-2023.webp" />
-<meta property="og:image:secure_url" content="https://MXPLAYER Movies.netlify.app/" />
+<meta property="og:url" content="https://mxplayermovies.netlify.app/Adult/VirginBahus-2023/VirginBahus" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/virgin-bahus-2023.webp" />
+<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Virgin Bahus (2023) | MXPLAYER Movies™" />
-<meta name="twitter:image" content="https://MXPLAYER Movies.netlify.app/virgin-bahus-2023.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/virgin-bahus-2023.webp" />
 <meta name="description" content="Watch VirginBahus Full Movie Online on MXPLAYER Movies™, You can also download Virgin Bahus (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://MXPLAYER Movies.netlify.app/Adult/VirginBahus-2023/" />
+<link rel="canonical" href="https://mxplayermovies.netlify.app/Adult/VirginBahus-2023/" />
  
 
       </Head>

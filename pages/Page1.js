@@ -25,18 +25,18 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://MXPLAYER Movies.netlify.app/"
+    "@id": "https://mxplayermovies.netlify.app/"
     
   },
   "headline": "MXPLAYER Movies™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies",
-  "image": "https://MXPLAYER Movies.netlify.app/logo.png",
+  "image": "https://mxplayermovies.netlify.app/logo.png",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "MXPLAYER Movies",
-      "url": "https://MXPLAYER Movies.netlify.app/"
+      "url": "https://mxplayermovies.netlify.app/"
     }],
   
   "publisher": {
@@ -44,7 +44,7 @@ const schemaData   = {
       "name": "MXPLAYER Movies",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://MXPLAYER Movies.netlify.app/og_image.jpg"
+        "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
   "description": "MXPLAYER Movies™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies"
@@ -119,26 +119,26 @@ const searchData   = {
 	<meta property="og:image:width" content="720"/>
 	<meta property="og:title" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://MXPLAYER Movies.netlify.app/" />
+	<meta property="og:url" content="https://mxplayermovies.netlify.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
+	<meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="MXPLAYER Movies™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 
-  <link rel="canonical" href="https://MXPLAYER Movies.netlify.app/Page1" />
+  <link rel="canonical" href="https://mxplayermovies.netlify.app/Page1" />
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
-  <link rel="alternate" hreflang="en-us" 	href="https://MXPLAYER Movies.netlify.app/"/>
-	<link rel="alternate" hreflang="en-gb" 	href="https://MXPLAYER Movies.netlify.app/"/>
-	<link rel="alternate" hreflang="en-ca" 	href="https://MXPLAYER Movies.netlify.app/"/>
-	<link rel="alternate" hreflang="en-au" 	href="https://MXPLAYER Movies.netlify.app/"/>
-	<link rel="alternate" hreflang="en-se" 	href="https://MXPLAYER Movies.netlify.app/"/>
-	<link rel="alternate" hreflang="en-fr" 	href="https://MXPLAYER Movies.netlify.app/"/>
-	<link rel="alternate" hreflang="en-dk" 	href="https://MXPLAYER Movies.netlify.app/"/>
-	<link rel="alternate" hreflang="en-no" 	href="https://MXPLAYER Movies.netlify.app/"/>
-	<link rel="alternate" hreflang="x-default" 	href="https://MXPLAYER Movies.netlify.app/"/>
+  <link rel="alternate" hreflang="en-us" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://mxplayermovies.netlify.app/"/>
 
       </Head>
 <main>

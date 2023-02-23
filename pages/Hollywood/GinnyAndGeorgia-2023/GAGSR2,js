@@ -22,18 +22,18 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://MXPLAYER Movies.netlify.app/Hollywood/GinnyAndGeorgia-2023/GinnyAndGeorgia"
+    "@id": "https://mxplayermovies.netlify.app/Hollywood/GinnyAndGeorgia-2023/GinnyAndGeorgia"
     
   },
   "headline": "Ginny And Georgia - 2023 | MXPLAYER Movies™",
-  "image": "https://MXPLAYER Movies.netlify.app/ginny-georgia-2023.webp",
+  "image": "https://mxplayermovies.netlify.app/ginny-georgia-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "MXPLAYER Movies",
-      "url": "https://MXPLAYER Movies.netlify.app/"
+      "url": "https://mxplayermovies.netlify.app/"
     }],
   
   "publisher": {
@@ -41,7 +41,7 @@ const schemaData   = {
       "name": "MXPLAYER Movies",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://MXPLAYER Movies.netlify.app/og_image.jpg"
+        "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
   "description": "MXPLAYER Movies™ Ginny And Georgia - 2023 | Watch now the Best TV shows and Movies"
@@ -66,17 +66,17 @@ const scrollSearch = myKey => {
 <meta property="og:site_name" content="MXPLAYER Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
 <meta property="og:title" content="Watch Ginny And Georgia (2023) | MXPLAYER Movies™" />
-<meta property="og:url" content="https://MXPLAYER Movies.netlify.app/Hollywood/GinnyAndGeorgia-2023/GinnyAndGeorgia" />
-<meta property="og:image" content="https://MXPLAYER Movies.netlify.app/ginny-georgia-2023.webp" />
-<meta property="og:image:secure_url" content="https://MXPLAYER Movies.netlify.app/" />
+<meta property="og:url" content="https://mxplayermovies.netlify.app/Hollywood/GinnyAndGeorgia-2023/GinnyAndGeorgia" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/ginny-georgia-2023.webp" />
+<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Ginny And Georgia (2023) | MXPLAYER Movies™" />
-<meta name="twitter:image" content="https://MXPLAYER Movies.netlify.app/ginny-georgia-2023.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/ginny-georgia-2023.webp" />
 <meta name="description" content="Watch Ginny And Georgia Full Movie Online on MXPLAYER Movies™, You can also download Ginny And Georgia (2023) in full HD quality to watch later offline." />
 
-<link rel="canonical" href="https://MXPLAYER Movies.netlify.app/Hollywood/GinnyAndGeorgia-2023/" />
+<link rel="canonical" href="https://mxplayermovies.netlify.app/Hollywood/GinnyAndGeorgia-2023/" />
  
 
       </Head>
