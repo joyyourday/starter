@@ -5,52 +5,52 @@ const contact = () => {
   return (
     <div>
         <Head>
-        <title>Mxplayer Movies™ Contact Us</title>
+        <title>MXPLAYER Movies™ Contact Us</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="mxplayer movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="uwatchfree,uwatch4free,mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://mxplayermovies.netlify.app/" />
+	<meta property="og:url" content="https://MXPLAYER Movies.netlify.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+	<meta property="og:image" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Mxplayer Movies™ " />
+	<meta name="twitter:title" content="MXPLAYER Movies™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://MXPLAYER Movies.netlify.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
-  <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+  
   <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
   <link rel="alternate" hreflang="en-us" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-gb" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-ca" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-au" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-se" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-fr" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-dk" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-no" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
 	<link rel="alternate" hreflang="x-default" 
-	href="https://mxplayermovies.netlify.app/"/>
+	href="https://MXPLAYER Movies.netlify.app/"/>
       </Head>
 <div class="container my-24 px-6 mx-auto">
 
