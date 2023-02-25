@@ -135,7 +135,7 @@ const searchData   = {
 	<link rel="alternate" hreflang="en-dk" 	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-no" 	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="x-default" 	href="https://mxplayermovies.netlify.app/"/>
- 
+  <meta name="clckd" content="8e7dcd5982da86248a2f6848ececf580" />
       </Head>
        
       <main>
