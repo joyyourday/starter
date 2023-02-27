@@ -5,29 +5,29 @@ const contact = () => {
   return (
     <div>
         <Head>
-        <title>MXPLAYER Movies™ Contact Us</title>
+        <title>Mxplayer Movies™ Contact Us</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="uwatchfree,uwatch4free,mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
+	<meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
 	<meta property="og:url" content="https://mxplayermovies.netlify.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="MXPLAYER Movies™ " />
+	<meta name="twitter:title" content="Mxplayer Movies™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>

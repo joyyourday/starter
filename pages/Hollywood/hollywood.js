@@ -23,26 +23,26 @@ const schemaData   = {
     "@id": "https://mxplayermovies.netlify.app/Hollywood/hollywood"
     
   },
-  "headline": "MXPLAYER Movies™ Hollywood | Watch now the Best TV shows and Movies",
+  "headline": "Mxplayer Movies™ Hollywood | Watch now the Best TV shows and Movies",
   "image": "https://mxplayermovies.netlify.app/logo.png",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "MXPLAYER Movies",
+      "name": "Mxplayer Movies",
       "url": "https://mxplayermovies.netlify.app/Hollywood/hollywood"
     }],
   
   "publisher": {
       "@type": "Organization",
-      "name": "MXPLAYER Movies",
+      "name": "Mxplayer Movies",
       "logo": {
         "@type": "ImageObject",
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "MXPLAYER Movies™ Hollywood | Watch now the Best TV shows and Movies"
+  "description": "Mxplayer Movies™ Hollywood | Watch now the Best TV shows and Movies"
 
 };
 const maxData   = {
@@ -102,29 +102,29 @@ const scrollSearch = myKey => {
   />
       <div className="bg-[#1a202c]">
       <Head>
-        <title>MXPLAYER Movies™ Hollywood</title>
+        <title>Mxplayer Movies™ Hollywood</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="keywords" content="uwatchfree,uwatch4free,mxplayermovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,uwatch4free,latest full movies online" />
+  <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
 	<meta property="og:url" content="https://mxplayermovies.netlify.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="MXPLAYER Movies™ " />
+	<meta name="twitter:title" content="Mxplayer Movies™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
 	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 
@@ -146,7 +146,7 @@ const scrollSearch = myKey => {
         <div>
       <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font">
-    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white">MXPLAYER Movies™ Watch Latest Movies</h1>
+    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white">Mxplayer Movies™ Watch Latest Movies</h1>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
           <div className="w-70 h-50 inline-flex items-center justify-center   text-white-900 mb-5 flex-shrink-0">

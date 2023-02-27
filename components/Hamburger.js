@@ -9,29 +9,29 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>MXPLAYER Movies™</title>
+      <title>Mxplayer Movies™</title>
       <meta name="description" content="Watch Watch now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="MXPLAYER Movies,MXPLAYER Moviesmovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="Mxplayer Movies,Mxplayer Moviesmovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />
   <meta name="robots" content="index, follow" />  
 	<meta name="robots" content="index, follow, archive" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="MXPLAYER Movies™ | Watch now the Best TV shows and Movies " />
+	<meta property="og:title" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
 	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://MXPLAYER Movies.vercel.app/" />
+	<meta property="og:url" content="https://Mxplayer Movies.vercel.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://MXPLAYER Movies.vercel.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://MXPLAYER Movies.vercel.app/og_image.jpg" />
+	<meta property="og:image" content="https://Mxplayer Movies.vercel.app/og_image.jpg" />
+	<meta property="og:image:secure_url" content="https://Mxplayer Movies.vercel.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="MXPLAYER Movies™ " />
+	<meta name="twitter:title" content="Mxplayer Movies™ " />
 	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://MXPLAYER Movies.vercel.app/og_image.jpg" />
+	<meta name="twitter:image" content="https://Mxplayer Movies.vercel.app/og_image.jpg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className="w-full bg-gray-800 shadow">
