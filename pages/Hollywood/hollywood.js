@@ -14,72 +14,7 @@ const hollywood = () => {
         document.removeEventListener('contextmenu', handleContextmenu)
     }
 }, [ ])
-const schemaData   = {
-  "@context": "https://schema.org",
-  
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://mxplayermovies.netlify.app/Hollywood/hollywood"
-    
-  },
-  "headline": "Mxplayer Movies™ Hollywood | Watch now the Best TV shows and Movies",
-  "image": "https://mxplayermovies.netlify.app/logo.png",
 
-  "datePublished": '2023-01-01T09:00:00.000Z',
-  "dateModified": '2023-01-01T09:00:00.000Z',
-  "author": [{
-      "@type": "Person",
-      "name": "Mxplayer Movies",
-      "url": "https://mxplayermovies.netlify.app/Hollywood/hollywood"
-    }],
-  
-  "publisher": {
-      "@type": "Organization",
-      "name": "Mxplayer Movies",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://mxplayermovies.netlify.app/og_image.jpg"
-      }
-    },
-  "description": "Mxplayer Movies™ Hollywood | Watch now the Best TV shows and Movies"
-
-};
-const maxData   = {
-
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Hollywood",
-    "item": "https://mxplayermovies.netlify.app/Hollywood/hollywood"
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Bollywood",
-    "item": "https://mxplayermovies.netlify.app/Bollywood/bollywood"
-  },{
-    "@type": "ListItem",
-    "position": 3,
-    "name": "Adult",
-    "item": "https://mxplayermovies.netlify.app/Adult/adult"
-  }]
-};
-const searchData   = {
-  "@context": "https://schema.org",
-      "@type": "WebSite",
-      "url": "https://www.example.com/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://query.example.com/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      
-  }
-  };
 const scrollSearch = myKey => {
   window.scrollTo(0, 0);
   frontMatter.handleSearch(myKey)
@@ -88,18 +23,6 @@ const scrollSearch = myKey => {
   return (
   
     <div >
-    <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-  />
-    <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
-  />
-<script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
-  />
       <div className="bg-[#1a202c]">
       <Head>
         <title>Mxplayer Movies™ Hollywood</title>
