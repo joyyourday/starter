@@ -81,7 +81,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Ant-Man and the Wasp Quantumania (2023) | Mxplayer Movies™" />
 <meta name="twitter:image" content="https://mxplayermovies.netlify.app/ant-Man-and-the-wasp-2023.webp" />
 <meta name="description" content="Watch Ant-Man and the Wasp Quantumania (2023) Full Movie Online on Mxplayer Movies™, You can also download Ant-Man and the Wasp Quantumania (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://mxplayermovies.netlify.app/Hollywood/AntMan-2023/" />
 
       </Head>

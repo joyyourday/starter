@@ -67,7 +67,7 @@ function togglePopup() {
      <Head>
      <title>Watch An Affair To Forget - 2023 | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="mxplayer,mxplayer.in,hd movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />

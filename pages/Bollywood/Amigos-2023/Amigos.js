@@ -69,7 +69,7 @@ function togglePopup() {
      <Head>
      <title>Watch Amigos (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="mxplayer,mxplayer.in,hd movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
@@ -86,7 +86,7 @@ function togglePopup() {
 <meta name="description" content="Watch Amigos Full Movie Online on Mxplayer Movies™, You can also download Amigos (2023) in full HD quality to watch later offline." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="canonical" href="https://mxplayermovies.netlify.app/Bollywood/Amigos-2023/" />
- 
+<script src="../../propler/ads.js" defer></script>
 
       </Head>
       <div className="bg-[#1a202c]">

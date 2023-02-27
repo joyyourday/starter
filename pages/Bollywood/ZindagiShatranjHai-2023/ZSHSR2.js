@@ -66,7 +66,7 @@ function togglePopup() {
      <Head>
      <title>Watch Zindagi Shatranj Hai (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="mxplayer,mxplayer.in,hd movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
@@ -81,7 +81,7 @@ function togglePopup() {
 <meta name="twitter:title" content="Watch Zindagi Shatranj Hai (2023) | Mxplayer Movies™" />
 <meta name="twitter:image" content="https://mxplayermovies.netlify.app/zindagi-shatranj-hai-2023.webp" />
 <meta name="description" content="Watch Zindagi Shatranj Hai Full Movie Online on Mxplayer Movies™, You can also download Zindagi Shatranj Hai (2023) in full HD quality to watch later offline." />
-
+<script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://mxplayermovies.netlify.app/Bollywood/ZindagiShatranjHai-2023/" />
  
 
