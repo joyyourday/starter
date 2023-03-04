@@ -9,37 +9,50 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Mxplayer Movies™</title>
-      <meta name="description" content="Watch Watch now the Best TV shows and Movies " />
-	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="Mxplayer Movies,Mxplayer Moviesmovies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
-	<meta name="revisit-after" content="1 days" />
-	<meta property="og:locale" content="en_US" />
-  <meta name="robots" content="index, follow" />  
-	<meta name="robots" content="index, follow, archive" />
-	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
-	<meta property="og:type" content="website" />
-	<meta property="og:image:height" content="1280"/>
-	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
-	<meta property="og:description" content="Watch now the Best TV shows and Movies " />
-	<meta property="og:url" content="https://Mxplayer Movies.vercel.app/" />
-	<meta property="og:image:type" content="image/jpeg" />
-	<meta property="og:image" content="https://Mxplayer Movies.vercel.app/og_image.jpg" />
-	<meta property="og:image:secure_url" content="https://Mxplayer Movies.vercel.app/og_image.jpg" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Mxplayer Movies™ " />
-	<meta name="twitter:description" content=" Watch now the Best TV shows and Movies " />
-	<meta name="twitter:image" content="https://Mxplayer Movies.vercel.app/og_image.jpg" />
-        <link rel="icon" href="/favicon.ico" />
+      <title>Mxplayer Movies™ | Watch now the Best TV shows and Movies</title>
+        <meta name="robots" content="index, follow" />  
+        <meta name="revisit-after" content="1 days" />
+	      <meta name="description" content="Mxplayer Movies™ - Hollywood | Bollywood | Adult Watch now the Best TV shows and Movies" />
+	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+       <meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	     <meta property="og:locale" content="en_US" />
+	     <meta property="og:site_name" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
+	     <meta property="og:type" content="website" />
+	     <meta property="og:image:height" content="1280"/>
+	     <meta property="og:image:width" content="720"/>
+	     <meta property="og:title" content="Mxplayer Movies™ | Watch now the Best TV shows and Movies " />
+	     <meta property="og:description" content="Mxplayer Movies™ - Hollywood | Bollywood | Adult Watch now the Best TV shows and Movies " />
+	     <meta property="og:url" content="https://mxplayermovies.netlify.app/" />
+	     <meta property="og:image:type" content="image/jpeg" />
+	     <meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+	     <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+	     <meta name="twitter:card" content="summary_large_image" />
+	     <meta name="twitter:title" content="Mxplayer Movies™ " />
+	     <meta name="twitter:description" content=" Mxplayer Movies™ - Hollywood | Bollywood | Adult Watch now the Best TV shows and Movies " />
+	     <meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
+       <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+  <link rel="alternate" hreflang="en-us" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-gb" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-ca" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-au" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-se" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-fr" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-dk" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="en-no" 	href="https://mxplayermovies.netlify.app/"/>
+	<link rel="alternate" hreflang="x-default" 	href="https://mxplayermovies.netlify.app/"/>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest"></link>
+  <link rel="canonical" href="https://mxplayermovies.netlify.app/" />
       </Head>
       <nav className="w-full bg-gray-800 shadow">
         <div className="justify-between px-4  mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
            
-          <Image src='/logo.png' alt='Logo' width={750} height={121} className="rounded-3xl "/>
+          <Image src='/logo.png' alt='Logo' width={650} height={121} className="rounded-3xl "/>
               <a href="/">
                 
               </a>
@@ -87,25 +100,33 @@ export default function Home() {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
                 <li className="text-white">
-                  <Link href="/">
-                    <a>Home</a>
+                <Link href="/">
+                <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+             
+                    <a>Home</a></button>
                   </Link>
                 </li>
                 <li className="text-white">
-                  <Link href="/../Hollywood/hollywood">
-                    <a>Hollywood</a>
+                <Link href="/../Hollywood/hollywood">
+                <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+              
+                    <a>Hollywood</a></button>
                   </Link>
                 </li>
                 <li className="text-white">
-                  <Link href="/../Bollywood/bollywood">
-                    <a>Bollywood</a>
+                <Link href="/../Bollywood/bollywood">
+                <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+               
+                    <a>Bollywood</a></button>
                   </Link>
                 </li>
                 <li className="text-white">
-                  <Link href="/../Adult/adult">
-                    <a>Adult</a>
+                <Link href="/../Adult/adult">
+                <button className="relative inline-flex items-center rounded-3xl justify-center p-0.5 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+                  
+                    <a>Adult</a></button>
                   </Link>
                 </li>
               </ul>
