@@ -5,6 +5,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
+import Max from 'pages/Max';
 
 
 
@@ -34,8 +35,8 @@ const schemaData   = {
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "Mxplayer Movies",
-      "url": "https://mxplayermovies.netlify.app/"
+      "name": "DrTrailer",
+      "url": "https://mxplayermovies.netlify.app/DrTrailer.png"
     }],
   
   "publisher": {
@@ -68,7 +69,7 @@ function togglePopup() {
      <Head>
      <title>Watch Farebi Yaar Episode 3 (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,farebi yaar movie,index of farebi yaar movie,farebi yaar movie 2022,farebi yaar movie online,watch farebi yaar movie,dubbed movies,farebi yaar movie download,farebi yaar movie latest,farebi yaar movie videos,farebi yaar movie trailer,farebi yaar movie cast,farebi yaar movie story,farebi yaar movie release date,farebi yaar movie watch online free,farebi yaar movie free download,farebi yaar movie download" />
+<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
@@ -120,7 +121,7 @@ function togglePopup() {
       </button></Link>
     </div>
 </div>
- <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
+ <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../FarebiYarr-2023/FarebiYarrP3" > 
       <h1 >Click To Watch Farebi Yaar Episode 3 (2023) Server 1</h1></a></button>
     <div className="flex flex-col space-y-4 m-8">
@@ -215,8 +216,9 @@ Download
 </button></Link>
 
 
+<Max /> 
 <Link href="../../AdultAds">
-<button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
   Back To Adult Section
 
 </button></Link>

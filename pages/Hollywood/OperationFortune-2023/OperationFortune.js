@@ -5,7 +5,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import SkipAds from '@components/SkipAds';
 import styles from '@styles/video-player.module.css'
-
+import Max from 'pages/Max';
 
 const OperationFortune  = () => {
   useEffect(() => {
@@ -33,8 +33,8 @@ const schemaData   = {
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "Mxplayer Movies",
-      "url": "https://mxplayermovies.netlify.app/"
+      "name": "DrTrailer",
+      "url": "https://mxplayermovies.netlify.app/DrTrailer.png"
     }],
   
   "publisher": {
@@ -66,7 +66,7 @@ function togglePopup() {
      <Head>
      <title>Watch Operation Fortune ruse de uerre (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,HD movies,movie 2023,operation fortune ruse de uerre movie,index of operation fortune ruse de uerre movie,operation fortune ruse de uerre movie 2023,operation fortune ruse de uerre tv series,operation fortune ruse de uerre movie online,watch operation fortune ruse de uerre movie,dubbed movies,operation fortune ruse de uerre movie download,operation fortune ruse de uerre movie latest,operation fortune ruse de uerre movie videos,operation fortune ruse de uerre movie trailer,operation fortune ruse de uerre movie cast,operation fortune ruse de uerre movie story,operation fortune ruse de uerre movie release date,operation fortune ruse de uerre movie watch online free,operation fortune ruse de uerre movie free download,operation fortune ruse de uerre movie download" />
+<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -96,7 +96,7 @@ function togglePopup() {
       <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbhight.com/e/3feygqgxngx5.html" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-   <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
+   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../OperationFortune-2023/OFGSR2" > 
       <h1 >Click To Watch Operation Fortune ruse de uerre (2022) Server 2</h1></a></button>
     <div className="flex flex-col space-y-4 m-8">
@@ -196,8 +196,9 @@ Download
 </button></Link>
 
 
-<Link href="../../HollywoodAds">
-<button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
+<Max />
+
+<Link href="../../HollywoodAds"><button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
   Back To Hollywood Section
 

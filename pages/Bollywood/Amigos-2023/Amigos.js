@@ -3,8 +3,9 @@ import Rating from 'pages/Rating';
 import Head from 'next/head'
 import SkipAds from '@components/SkipAds'
 import React, { useState, useEffect } from 'react';
-import styles from '@styles/video-player.module.css'
 import '@styles/styles.module.css'
+import styles from '@styles/video-player.module.css'
+import Max from 'pages/Max';
 
 const Amigos  = () => {
   
@@ -34,8 +35,8 @@ const schemaData   = {
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "Mxplayer Movies",
-      "url": "https://mxplayermovies.netlify.app/"
+      "name": "DrTrailer",
+      "url": "https://mxplayermovies.netlify.app/DrTrailer.png"
     }],
   
   "publisher": {
@@ -60,6 +61,18 @@ const [showPopup, setShowPopup] = useState(false);
 function togglePopup() {
   setShowPopup(!showPopup);
 }
+const images = [
+  { src: '/black-panther-wakanda-forever-2022.webp', alt: 'Black Panther Waka 2023', href: '../../Hollywood/BlackPantherWaka-2023/BlackPantherWaka'  },
+  { src: '/dishkiyaoon-2023.webp', alt: 'Dishkiyaoon 2023', href: '../../Bollywood/Dishkiyaoon-2023/Dishkiyaoon' },
+  { src: '/ant-Man-and-the-wasp-2023.webp', alt: 'Ant Man And The WASP 2023', href: '../../Bollywood/AntMan-2023/AntMan' },
+  { src: '/farzi-2023.webp', alt: 'Farzi 2023', href: '../../Bollywood/Farzi-2023/Farzi' },
+  { src: '/gandii-baat-s7-2023.webp', alt: 'Gandii Baat S7 2023', href: '../../Adult/GandiiBaatS7-2023/GandiiBaatS7' },
+  { src: '/selfiee-2023.webp', alt: 'Selfiee 2023', href: '../../Bollywood/Selfiee-2023/Selfiee' },
+  { src: '/luther-the-fallen-sun-2023.webp', alt: 'Luther The Fallen Sun 2023', href: '../../Bollywood/LutherTheFallenSun-2023/LutherTheFallenSun' },
+  { src: '/lagaslas-2023.webp', alt: 'Lagaslas 2023', href: '../../Adult/Lagaslas-2023/Lagaslas' },
+  { src: '/vikings-valhalla-2023.webp', alt: 'Vikings Valhalla 2023', href: '../../Hollywood/VikingsValhalla-2023/VikingsValhallaP1' },
+  { src: '/hunt-2023.webp', alt: 'Hunt 2023', href: '../../Bollywood/Hunt-2023/Hunt' },
+];
 
 return (
     <div>
@@ -70,7 +83,7 @@ return (
      <Head>
      <title>Watch Amigos (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,HD movies,movie 2023,amigos movie,index of amigos movie,amigos movie 2023,amigos movie online,watch amigos movie,dubbed movies,amigos movie download,amigos movie latest,amigos movie videos,amigos movie trailer,amigos movie cast,amigos movie story,amigos movie release date,amigos movie watch online free,amigos movie free download,amigos movie download" />
+<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -102,7 +115,7 @@ return (
     <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "  src="https://sbhight.com/e/82pjqlk7u2d1.html" webkitAllowFullScreen mozallowfullscreen allowFullScreen />
     </div>
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in cursor-pointer px-5 py-2.5 transition-all  duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../Amigos-2023/Server2" > 
       <h1 >Click To Watch Amigos (2023) Server 2</h1></a></button>
     <div className="flex flex-col space-y-4 m-8">
@@ -203,9 +216,11 @@ Download
 </button></Link>
 
 
+<Max />
+
 <Link href="../../BollywoodAds">
 
-<button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
   Back To Bollywood Section
  

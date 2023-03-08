@@ -5,6 +5,7 @@ import Head from 'next/head'
 import SkipAds from '@components/SkipAds'
 import React, { useState, useEffect } from 'react';
 import styles from '@styles/video-player.module.css'
+import Max from 'pages/Max';
 
 
 
@@ -36,8 +37,8 @@ const schemaData   = {
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
-      "name": "Mxplayer Movies",
-      "url": "https://mxplayermovies.netlify.app/"
+      "name": "DrTrailer",
+      "url": "https://mxplayermovies.netlify.app/DrTrailer.png"
     }],
   
   "publisher": {
@@ -70,7 +71,7 @@ function togglePopup() {
      <Head>
      <title>Watch Triptych (2023) | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,HD movies,movie 2023,triptych movie,index of triptych movie,triptych movie 2023,triptych movie online,watch triptych movie,dubbed movies,triptych movie download,triptych movie latest,triptych movie videos,triptych movie trailer,triptych movie cast,triptych movie story,triptych movie release date,triptych movie watch online free,triptych movie free download,triptych movie download" />
+<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -102,7 +103,7 @@ function togglePopup() {
     <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 "  src="https://sbbrisk.com/e/jg0ikcb22ja3.html" webkitAllowFullScreen mozallowfullscreen allowFullScreen />
     </div>
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in cursor-pointer px-5 py-2.5 transition-all  duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
+  <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../Triptych-2023/TPYSR2" > 
       <h1 >Click To Watch Triptych (2023) Server 2</h1></a></button>
     <div className="flex flex-col space-y-4 m-8">
@@ -202,9 +203,11 @@ Download
 
 </button></Link>
 
+<Max />
+
 <Link href="../../BollywoodAds">
 
- <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in cursor-pointer px-5 py-2.5 transition-all  duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
+<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
  
   Back To Bollywood Section
  
