@@ -29,7 +29,7 @@ const schemaData   = {
     "@id": "https://mxplayermovies.netlify.app/Bollywood/DharaviBank-2022/DharaviBank"
     
   },
-  "headline": "Dharavi Bank - 2022 | Mxplayer Movies™",
+  "headline": "Dharavi Bank - 2022 | 1337x™",
   "image": "https://mxplayermovies.netlify.app/dharavi-bank-2022.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -42,13 +42,13 @@ const schemaData   = {
   
   "publisher": {
       "@type": "Organization",
-      "name": "Mxplayer Movies",
+      "name": "1337x",
       "logo": {
         "@type": "ImageObject",
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "Mxplayer Movies™ Dharavi Bank - 2022 | Watch now the Best TV shows and Movies"
+  "description": "1337x™ Dharavi Bank - 2022 | Watch now the Best TV shows and Movies"
 
 };
 const scrollSearch = myKey => {
@@ -68,25 +68,25 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Dharavi Bank (2022) | Mxplayer Movies™</title>
+     <title>Watch Dharavi Bank (2022) | 1337x™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="1337x,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="1337x™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch Dharavi Bank (2023) | Mxplayer Movies™" />
+<meta property="og:title" content="Watch Dharavi Bank (2023) | 1337x™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Bollywood/DharaviBank-2022/DharaviBank" />
 <meta property="og:image" content="https://mxplayermovies.netlify.app/dharavi-bank-2022.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Dharavi Bank (2023) | Mxplayer Movies™" />
+<meta name="twitter:title" content="Watch Dharavi Bank (2023) | 1337x™" />
 <meta name="twitter:image" content="https://mxplayermovies.netlify.app/dharavi-bank-2022.webp" />
-<meta name="description" content="Watch Transfusion  Full Movie Online on Mxplayer Movies™, You can also download Dharavi Bank (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Transfusion  Full Movie Online on 1337x™, You can also download Dharavi Bank (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script>
 <link rel="canonical" href="https://mxplayermovies.netlify.app/Bollywood/DharaviBank-2022/" />
  

@@ -25,18 +25,18 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://mxplayermovies.netlify.app/Bollywood/Farzi-2023/Farzi"
+    "@id": "https://Mxplayer Movies.vercel.app/Bollywood/Farzi-2023/Farzi"
     
   },
   "headline": "Farzi (2023) | Mxplayer Movies™",
-  "image": "https://mxplayermovies.netlify.app/farzi-2023.webp",
+  "image": "https://Mxplayer Movies.vercel.app/farzi-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "DrTrailer",
-      "url": "https://mxplayermovies.netlify.app/DrTrailer.png"
+      "url": "https://Mxplayer Movies.vercel.app/DrTrailer.png"
     }],
   
   "publisher": {
@@ -44,7 +44,7 @@ const schemaData   = {
       "name": "Mxplayer Movies",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://mxplayermovies.netlify.app/og_image.jpg"
+        "url": "https://Mxplayer Movies.vercel.app/og_image.jpg"
       }
     },
   "description": "Mxplayer Movies™ Farzi (2023) | Watch now the Best TV shows and Movies"
@@ -77,17 +77,17 @@ function togglePopup() {
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta property="og:title" content="Watch Farzi (2023) | Mxplayer Movies™" />
-<meta property="og:url" content="https://mxplayermovies.netlify.app/Bollywood/Farzi-2023/Farzi" />
-<meta property="og:image" content="https://mxplayermovies.netlify.app/farzi-2023.webp" />
-<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
+<meta property="og:url" content="https://Mxplayer Movies.vercel.app/Bollywood/Farzi-2023/Farzi" />
+<meta property="og:image" content="https://Mxplayer Movies.vercel.app/farzi-2023.webp" />
+<meta property="og:image:secure_url" content="https://Mxplayer Movies.vercel.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Farzi (2023) | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://mxplayermovies.netlify.app/farzi-2023.webp" />
+<meta name="twitter:image" content="https://Mxplayer Movies.vercel.app/farzi-2023.webp" />
 <meta name="description" content="Watch Farzi Full Movie Online on Mxplayer Movies™, You can also download Farzi (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
-<link rel="canonical" href="https://mxplayermovies.netlify.app/Bollywood/Farzi-2023/" />
+<link rel="canonical" href="https://Mxplayer Movies.vercel.app/Bollywood/Farzi-2023/" />
  
 
       </Head>
