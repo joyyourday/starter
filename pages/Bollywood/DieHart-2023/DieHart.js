@@ -27,18 +27,18 @@ const schemaData   = {
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://Mxplayer Movies.vercel.app/Bollywood/DieHart-2023/DieHart"
+    "@id": "https://mxplayermovies.netlify.app/Bollywood/DieHart-2023/DieHart"
     
   },
-  "headline": "Die Hart The Movie (2023) | Mxplayer Movies™",
-  "image": "https://Mxplayer Movies.vercel.app/DieHart-2023.webp",
+  "headline": "Die Hart The Movie (2023) Full Movie Online Free | Mxplayer Movies™",
+  "image": "https://mxplayermovies.netlify.app/DieHart-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
   "dateModified": '2023-01-01T09:00:00.000Z',
   "author": [{
       "@type": "Person",
       "name": "DrTrailer",
-      "url": "https://Mxplayer Movies.vercel.app/DrTrailer.png"
+      "url": "https://mxplayermovies.netlify.app/DrTrailer.webp"
     }],
   
   "publisher": {
@@ -46,10 +46,10 @@ const schemaData   = {
       "name": "Mxplayer Movies",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://Mxplayer Movies.vercel.app/og_image.jpg"
+        "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "Mxplayer Movies™ Die Hart The Movie (2023) | Watch now the Best TV shows and Movies"
+  "description": "Mxplayer Movies™ Die Hart The Movie (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -69,9 +69,9 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Die Hart The Movie (2023) | Mxplayer Movies™</title>
+     <title>Watch Die Hart The Movie (2023) Full Movie Online Free | Mxplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies,hd movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
@@ -79,17 +79,17 @@ function togglePopup() {
 <meta property="og:type" content="movie" />
 
 <meta property="og:title" content="Watch Die Hart The Movie (2023) | Mxplayer Movies™" />
-<meta property="og:url" content="https://Mxplayer Movies.vercel.app/Bollywood/DieHart-2023/DieHart" />
-<meta property="og:image" content="https://Mxplayer Movies.vercel.app/DieHart-2023.webp" />
-<meta property="og:image:secure_url" content="https://Mxplayer Movies.vercel.app/" />
+<meta property="og:url" content="https://mxplayermovies.netlify.app/Bollywood/DieHart-2023/DieHart" />
+<meta property="og:image" content="https://mxplayermovies.netlify.app/DieHart-2023.webp" />
+<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch Die Hart The Movie (2023) | Mxplayer Movies™" />
-<meta name="twitter:image" content="https://Mxplayer Movies.vercel.app/DieHart-2023.webp" />
+<meta name="twitter:image" content="https://mxplayermovies.netlify.app/DieHart-2023.webp" />
 <meta name="description" content="Watch DieHart Full Movie Online on Mxplayer Movies™, You can also download Die Hart The Movie (2023) in full HD quality to watch later offline." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="canonical" href="https://Mxplayer Movies.vercel.app/Bollywood/DieHart-2023/" />
+<link rel="canonical" href="https://mxplayermovies.netlify.app/Bollywood/DieHart-2023/" />
 <script src="../../propler/ads.js" defer></script>
 
       </Head>
@@ -105,7 +105,7 @@ function togglePopup() {
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../DieHart-2023/DEHSR2" > 
-      <h1 >Click To Watch Die Hart The Movie (2023) Server 2</h1></a></button>
+      <h2 >Click To Watch Die Hart The Movie (2023) Server 2</h2></a></button>
     <div className="flex flex-col space-y-4 m-8">
     <Rating /></div>
     <div className="flex flex-col space-y-4 ...">
@@ -119,8 +119,8 @@ function togglePopup() {
 </div>
 <div>
       <button className=" inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-yellow-600 to-blue-500 group-hover:from-purple-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0  " >
-    <a href="https://www.imdb.com/title/tt26198528/" > 
-      <h1 >IDBM Ranking</h1></a></button></div>
+    <a href="https://www.imdb.com/title/tt26198528/" target="_blank" > 
+      <h2 >IDBM Ranking</h2></a></button></div>
 <h2 className=" text-medium font-sm text-center dark:text-white text-white"><strong>Genre:</strong>Action, Thriller, Drama.</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Release year:</strong> 2023</h2>
 <h2 className="text-medium font-sm text-center dark:text-white text-white"><strong>Director:</strong>Eric Appel</h2>
@@ -207,7 +207,7 @@ Download
 
 <Link href="../../BollywoodAds">
 
-<button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+ <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-bold text-gray-900  group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110 ease-in cursor-pointer px-5 py-2.5 transition-all  duration-75 bg-white dark:bg-gray-900  group-hover:bg-opacity-0 " >
  
   Back To Bollywood Section
  
