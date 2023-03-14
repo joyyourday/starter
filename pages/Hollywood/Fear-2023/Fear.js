@@ -6,6 +6,8 @@ import React, { useEffect, useState } from 'react';
 import SkipAds from '@components/SkipAds';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
+import Translate from '@components/Translate';
+import ShareThis from '@components/ShareThis';
 
 const Fear  = () => {
   useEffect(() => {
@@ -26,7 +28,7 @@ const schemaData   = {
     "@id": "https://mxplayermovies.netlify.app/Hollywood/Fear-2023/Fear"
     
   },
-  "headline": "Fear (2023) Full Movie Online Free | Mxplayer Movies™",
+  "headline": "Fear (2023) Full Movie Online Free | MXplayer Movies™",
   "image": "https://mxplayermovies.netlify.app/fear-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -39,13 +41,13 @@ const schemaData   = {
   
   "publisher": {
       "@type": "Organization",
-      "name": "Mxplayer Movies",
+      "name": "MXplayer Movies",
       "logo": {
         "@type": "ImageObject",
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "Mxplayer Movies™ Fear (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "MXplayer Movies™ Fear (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -64,31 +66,33 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Fear (2023) Full Movie Online Free | Mxplayer Movies™</title>
+     <title>Watch Fear (2023) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,full movie online free,HD movies,movie 2023,fear movie,index of fear movie,fear movie 2023,fear tv series,fear movie online,watch fear movie,dubbed movies,fear movie download,fear movie latest,fear movie videos,fear movie trailer,fear movie cast,fear movie story,fear movie release date,fear movie watch online free,fear movie free download,fear movie download" />
+<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,fear movie,index of fear movie,fear movie 2023,fear tv series,fear movie online,watch fear movie,dubbed movies,fear movie download,fear movie latest,fear movie videos,fear movie trailer,fear movie cast,fear movie story,fear movie release date,fear movie watch online free,fear movie free download,fear movie download" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch Fear (2023) | Mxplayer Movies™" />
+<meta property="og:title" content="Watch Fear (2023) | MXplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Hollywood/Fear-2023/Fear" />
 <meta property="og:image" content="https://mxplayermovies.netlify.app/fear-2023.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Fear (2023) | Mxplayer Movies™" />
+<meta name="twitter:title" content="Watch Fear (2023) | MXplayer Movies™" />
 <meta name="twitter:image" content="https://mxplayermovies.netlify.app/fear-2023.webp" />
-<meta name="description" content="Watch Fear Full Movie Online on Mxplayer Movies™, You can also download Fear (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Fear Full Movie Online on MXplayer Movies™, You can also download Fear (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://mxplayermovies.netlify.app/Hollywood/Fear-2023/" />
  
 
       </Head>
+
       <div className="bg-gray-900 ">
+        <Translate/>
         <SkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Fear (2023) </h1>
 
@@ -205,7 +209,7 @@ Download
   Back To Hollywood Section
 
 </button></Link>
-
+ < ShareThis async defer />
 </div>
     </div> </div>
   )

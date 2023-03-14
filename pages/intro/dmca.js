@@ -1,17 +1,18 @@
 import React from 'react'
 import Head from 'next/head'
+import Translate from '@components/Translate'
 
 const Dmca = () => {
   return (
 
             <div>
       <Head>
-        <title>Mxplayer Movies™ DMCA</title>
+        <title>MXplayer Movies™ DMCA</title>
       
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	<meta name="keywords" content="MXplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
@@ -19,23 +20,23 @@ const Dmca = () => {
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free " />
+	<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free " />
+	<meta property="og:title" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free " />
 	<meta property="og:description" content="Watch Movies and TV-Series Online Free " />
 	<meta property="og:url" content="https://mxplayermovies.netlify.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Mxplayer Movies™ " />
+	<meta name="twitter:title" content="MXplayer Movies™ " />
 	<meta name="twitter:description" content=" Watch Movies and TV-Series Online Free " />
 	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<script src="../../propler/ads.js" defer></script> 
   
-  <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+ 
   <link rel="alternate" hreflang="en-us" href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-gb" 	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-ca" 	href="https://mxplayermovies.netlify.app/"/>
@@ -46,15 +47,16 @@ const Dmca = () => {
 	<link rel="alternate" hreflang="en-no" 	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="x-default" 	href="https://mxplayermovies.netlify.app/"/>
       </Head>
+      <Translate />
          <div class="container my-24 px-6 mx-auto">
 
 <section class="mb-32 text-gray-800">
   <div class="flex flex-wrap">
     <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full  px-3 lg:px-6">
       <h1 class="text-3xl font-bold mb-6">D.M.C.A Notices</h1>
-      <p class="font-bold mb-2">Mxplayer Movies</p>
+      <p class="font-bold mb-2">MXplayer Movies</p>
       <p class="text-gray-500 mb-6">
-      Mxplayer Movies is an online service provider as defined in the Digital Millennium Copyright Act. We provide legal copyright owners with the ability to self-publish on the Internet by uploading, storing, and displaying various types of media. We do not actively monitor, screen, or otherwise review the media which is uploaded to our servers by users of the service.
+      MXplayer Movies is an online service provider as defined in the Digital Millennium Copyright Act. We provide legal copyright owners with the ability to self-publish on the Internet by uploading, storing, and displaying various types of media. We do not actively monitor, screen, or otherwise review the media which is uploaded to our servers by users of the service.
       </p>
     
       <p class="text-gray-500 mb-6">

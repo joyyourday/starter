@@ -6,6 +6,8 @@ import React, { useEffect, useState } from 'react';
 import SkipAds from '@components/SkipAds';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
+import Translate from '@components/Translate';
+import ShareThis from '@components/ShareThis';
 
 
 const BYLSR2  = () => {
@@ -27,7 +29,7 @@ const schemaData   = {
     "@id": "https://mxplayermovies.netlify.app/Hollywood/Babylon-2023/Babylon"
     
   },
-  "headline": "Babylon - 2023 Full Movie Online Free | Mxplayer Movies™",
+  "headline": "Babylon - 2023 Full Movie Online Free | MXplayer Movies™",
   "image": "https://mxplayermovies.netlify.app/babylon-2022.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -40,13 +42,13 @@ const schemaData   = {
   
   "publisher": {
       "@type": "Organization",
-      "name": "Mxplayer Movies",
+      "name": "MXplayer Movies",
       "logo": {
         "@type": "ImageObject",
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "Mxplayer Movies™ Babylon - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "MXplayer Movies™ Babylon - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -65,31 +67,33 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Babylon (2023) Full Movie Online Free | Mxplayer Movies™</title>
+     <title>Watch Babylon (2023) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,full movie online free,HD movies,movie 2023,babylon movie,index of babylon movie,babylon movie 2023,babylon tv series,babylon movie online,watch babylon movie,dubbed movies,babylon movie download,babylon movie latest,babylon movie videos,babylon movie trailer,babylon movie cast,babylon movie story,babylon movie release date,babylon movie watch online free,babylon movie free download,babylon movie download" />
+<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,babylon movie,index of babylon movie,babylon movie 2023,babylon tv series,babylon movie online,watch babylon movie,dubbed movies,babylon movie download,babylon movie latest,babylon movie videos,babylon movie trailer,babylon movie cast,babylon movie story,babylon movie release date,babylon movie watch online free,babylon movie free download,babylon movie download" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch Babylon (2023) | Mxplayer Movies™" />
+<meta property="og:title" content="Watch Babylon (2023) | MXplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Hollywood/Babylon-2023/Babylon" />
 <meta property="og:image" content="https://mxplayermovies.netlify.app/babylon-2022.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Babylon (2023) | Mxplayer Movies™" />
+<meta name="twitter:title" content="Watch Babylon (2023) | MXplayer Movies™" />
 <meta name="twitter:image" content="https://mxplayermovies.netlify.app/babylon-2022.webp" />
-<meta name="description" content="Watch Babylon Full Movie Online on Mxplayer Movies™, You can also download Babylon (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Babylon Full Movie Online on MXplayer Movies™, You can also download Babylon (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://mxplayermovies.netlify.app/Hollywood/Babylon-2023/" />
  
 
       </Head>
+
       <div className="bg-gray-900 ">
+        <Translate/>
         <SkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Babylon (2023) </h1>
 
@@ -205,7 +209,7 @@ Download
   Back To Hollywood Section
 
 </button></Link>
-
+ < ShareThis async defer />
 </div>
     </div> </div>
   )

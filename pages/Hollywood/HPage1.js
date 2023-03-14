@@ -1,8 +1,9 @@
 
 import Head from 'next/head'
 import Image from 'next/image'
-
 import React, { useEffect } from 'react'
+import Translate from '@components/Translate';
+import ShareThis from '@components/ShareThis';
 
 export default function HPage1() {
   useEffect(() => {
@@ -26,14 +27,14 @@ const schemaData   = {
       "@type":"CollectionPage",
       "@id":"https://mxplayermovies.netlify.app/",
       "url":"https://mxplayermovies.netlify.app/",
-      "name":"Mxplayer Movies™ | Watch Movies and TV-Series Online Free",
+      "name":"MXplayer Movies™ | Watch Movies and TV-Series Online Free",
       "isPartOf":{
         "@id":"https://mxplayermovies.netlify.app/#website"
       },
       "about":{
         "@id":"https://mxplayermovies.netlify.app/#organization"
       },
-      "description":"Mxplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
+      "description":"MXplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
       "breadcrumb":{
         "@id":"https://mxplayermovies.netlify.app/#breadcrumb"
       },
@@ -46,7 +47,7 @@ const schemaData   = {
         {
           "@type":"ListItem",
           "position":1,
-          "name":"Mxplayer Movies™ | Watch Movies and TV-Series Online Free"
+          "name":"MXplayer Movies™ | Watch Movies and TV-Series Online Free"
         }
       ]
     },
@@ -54,8 +55,8 @@ const schemaData   = {
       "@type":"WebSite",
       "@id":"https://mxplayermovies.netlify.app/#website",
       "url":"https://mxplayermovies.netlify.app/",
-      "name":"Mxplayer Movies™ | Watch Movies and TV-Series Online Free",
-      "description":"Mxplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
+      "name":"MXplayer Movies™ | Watch Movies and TV-Series Online Free",
+      "description":"MXplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free",
       "publisher":{
         "@id":"https://mxplayermovies.netlify.app/#organization"
       },
@@ -74,7 +75,7 @@ const schemaData   = {
     {
       "@type":"Organization",
       "@id":"https://mxplayermovies.netlify.app/#organization",
-      "name":"Mxplayer Movies™ | Watch Movies and TV-Series Online Free",
+      "name":"MXplayer Movies™ | Watch Movies and TV-Series Online Free",
       "url":"https://mxplayermovies.netlify.app/",
       "logo":{
         "@type":"ImageObject",
@@ -84,7 +85,7 @@ const schemaData   = {
         "contentUrl":"https://mxplayermovies.netlify.app/logo.png",
         "width":834,
         "height":135,
-        "caption":"Mxplayer Movies™ | Watch Movies and TV-Series Online Free"
+        "caption":"MXplayer Movies™ | Watch Movies and TV-Series Online Free"
       },
       "image":{
         "@id":"https://mxplayermovies.netlify.app/#/schema/logo/image/"
@@ -103,32 +104,32 @@ const schemaData   = {
 <div className="bg-gray-900 ">
 
 <Head>
-        <title>Mxplayer Movies™ Page1</title>
+        <title>MXplayer Movies™ Page1</title>
       
         <meta name="robots" content="index, follow" />  
         <meta name="revisit-after" content="1 days" />
         <meta name="facebook-domain-verification" content="ye3czqmvt2fd8gy7mlgkvaqxsyzmyv" />
         <meta property="fb:app_id" content="602176271414602" />
-	      <meta name="description" content="Mxplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free" />
+	      <meta name="description" content="MXplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free" />
 	     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
 	     <meta property="og:locale" content="en_US" />   
-
-	     <meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free " />
+       <meta name="google-site-verification" content="-1XxcdKDFcZ7XYX4DT_6UNF0M2Y5mOQjFB0PAUcSg98" />
+	     <meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free " />
 	     <meta property="og:type" content="website" />
 	     <meta property="og:image:height" content="1280"/>
 	     <meta property="og:image:width" content="720"/>
-	     <meta property="og:title" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free " />
-	     <meta property="og:description" content="Mxplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
+	     <meta property="og:title" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free " />
+	     <meta property="og:description" content="MXplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
 	     <meta property="og:url" content="https://mxplayermovies.netlify.app/" />
 	     <meta property="og:image:type" content="image/jpeg" />
 	     <meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	     <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	     <meta name="twitter:card" content="summary_large_image" />
-	     <meta name="twitter:title" content="Mxplayer Movies™ " />
-	     <meta name="twitter:description" content=" Mxplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
+	     <meta name="twitter:title" content="MXplayer Movies™ " />
+	     <meta name="twitter:description" content=" MXplayer Movies™ - Hollywood | Bollywood | Adult Watch Movies and TV-Series Online Free " />
 	     <meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
-       <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
+      
   
   <link rel="alternate" hreflang="en-us" 	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-gb" 	href="https://mxplayermovies.netlify.app/"/>
@@ -147,12 +148,14 @@ const schemaData   = {
   <link rel="manifest" href="/site.webmanifest"></link>
   <link rel="canonical" href="https://mxplayermovies.netlify.app/HPage1" />
        </Head>
+
+       <Translate/>
 <main>
         <div>
         
         <div className="flex flex-col items-center justify-center space-y-12">
     <section className="text-gray-600 body-font ">
-    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> Mxplayer Movies™ Watch Latest Movies</h1>
+    <h1 className="mb-4 font-bold leading-none tracking-tight text-white my-2 text-center md:text-4xl dark:text-white"> MXplayer Movies™ Watch Latest Movies</h1>
     <div className="flex container flex-wrap sm:-m-4 -mx-0 -mb-10 -mt-4 md:space-y-0 space-y-6">
     <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div className="w-70 h-50 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
@@ -504,7 +507,7 @@ const schemaData   = {
       </main>
       </div>
 
-
+      < ShareThis async defer />
 </div>
     )
   }

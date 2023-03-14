@@ -28,7 +28,7 @@ const schemaData   = {
     "@id": "https://mxplayermovies.netlify.app/Bollywood/Chhatriwali-2023/Chhatriwali"
     
   },
-  "headline": "Chhatriwali - 2023 | Mxplayer Movies™",
+  "headline": "Chhatriwali - 2023 | MXplayer Movies™",
   "image": "https://mxplayermovies.netlify.app/chhatriwali-2023.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -41,13 +41,13 @@ const schemaData   = {
   
   "publisher": {
       "@type": "Organization",
-      "name": "Mxplayer Movies",
+      "name": "MXplayer Movies",
       "logo": {
         "@type": "ImageObject",
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "Mxplayer Movies™ Chhatriwali - 2023 | Watch now the Best TV shows and Movies"
+  "description": "MXplayer Movies™ Chhatriwali - 2023 | Watch now the Best TV shows and Movies"
 
 };
 const scrollSearch = myKey => {
@@ -67,25 +67,25 @@ function togglePopup() {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
   />
      <Head>
-     <title>Watch Chhatriwali (2023) | Mxplayer Movies™</title>
+     <title>Watch Chhatriwali (2023) | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="Mxplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+<meta name="keywords" content="MXplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
 <meta property="og:locale" content="en_US" />   
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="Mxplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free" />
 <meta property="og:type" content="movie" />
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Watch Chhatriwali (2023) | Mxplayer Movies™" />
+<meta property="og:title" content="Watch Chhatriwali (2023) | MXplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Bollywood/Chhatriwali-2023/Chhatriwali" />
 <meta property="og:image" content="https://mxplayermovies.netlify.app/chhatriwali-2023.webp" />
 <meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="720" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Watch Chhatriwali (2023) | Mxplayer Movies™" />
+<meta name="twitter:title" content="Watch Chhatriwali (2023) | MXplayer Movies™" />
 <meta name="twitter:image" content="https://mxplayermovies.netlify.app/chhatriwali-2023.webp" />
-<meta name="description" content="Watch Chhatriwali  Full Movie Online on Mxplayer Movies™, You can also download Chhatriwali (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch Chhatriwali  Full Movie Online on MXplayer Movies™, You can also download Chhatriwali (2023) in full HD quality to watch later offline." />
 
 <link rel="canonical" href="https://mxplayermovies.netlify.app/Bollywood/Chhatriwali-2023/" />
  
