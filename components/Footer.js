@@ -11,10 +11,10 @@ export default function Footer() {
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
  
-      <Link href="/" >
-      <Image src='/logo.png'  alt='Logo' width={400} height={60} className="rounded-3xl " /></Link>
+      <Link href="/" className="flex title-font items-center md:justify-start justify-center text-gray-900">
+      <Image src='/logo.png' alt='Logo' width={400} height={60} className=" rounded-3xl"/></Link>
    
-      <p className="mt-2 mx-6 text-sm text-gray-500 px-5">Watch now the Best TV shows and Movies</p>
+      <p className="mt-2 mx-6 text-sm text-gray-500 px-5">Watch Movies and TV Series Online Free</p>
     </div>
     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -92,8 +92,8 @@ export default function Footer() {
 
   <div className="bg-gray-100">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 | Mxplayer Movies™ —
-        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">Watch now the Best TV shows and Movies</a>
+      <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 MXplayer Movies™ —
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">Watch Movies and TV-Series Online Free</a>
       </p>
       
     </div>

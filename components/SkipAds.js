@@ -25,9 +25,11 @@ function SkipAds() {
   const handleClose = () => {
     setIsClosed(true);
   };
-
+  
   return (
+  
     <div>
+   
      
       {showAd && !isClosed && (
         // Add your ad component here
@@ -52,7 +54,8 @@ function SkipAds() {
         
             <div class="mt-2">
             <video class="w-full"  autoPlay loop >
-<source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer" poster="https://mxplayermovies.netlify.app/coverads.webp" >
+             
+<source src="../../official-trailer.mp4" type="video/mp4" alt="Official Trailer" poster="https://uwatchfree.vercel.app/coverads.webp">
 </source>
 </video>
             
@@ -75,11 +78,14 @@ function SkipAds() {
   </div>
 </div>
 </div>
-          
+
         </>
       )}
+    
     </div>
+    
   );
 }
+
 
 export default SkipAds;

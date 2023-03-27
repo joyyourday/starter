@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import Translate from '@components/Translate';
 
 const contact = () => {
@@ -11,31 +12,32 @@ const contact = () => {
 	<meta name="description" content="Watch
  now the Best TV shows and Movies " />
 	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<meta name="keywords" content="MXplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest full movies online" />
+	  <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
 	<meta name="revisit-after" content="1 days" />
 	<meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
   <meta name="robots" content="index, follow" />
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free " />
+	<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free " />
 	<meta property="og:type" content="website" />
 	<meta property="og:image:height" content="1280"/>
 	<meta property="og:image:width" content="720"/>
-	<meta property="og:title" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free " />
-	<meta property="og:description" content="Watch Movies and TV-Series Online Free " />
+	<meta property="og:title" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free " />
+	<meta property="og:description" content="Watch Movies, TV-Series & Sports Live Online Free " />
 	<meta property="og:url" content="https://mxplayermovies.netlify.app/" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta property="og:image:secure_url" content="https://mxplayermovies.netlify.app/og_image.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="MXplayer Movies™ " />
-	<meta name="twitter:description" content=" Watch Movies and TV-Series Online Free " />
+	<meta name="twitter:description" content=" Watch Movies, TV-Series & Sports Live Online Free " />
 	<meta name="twitter:image" content="https://mxplayermovies.netlify.app/og_image.jpg" />
   <script src="../../propler/ads.js" defer></script> 
   
- 
+  <meta name="google-site-verification" content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg" />
   <link rel="alternate" hreflang="en-us" 	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-gb" 	href="https://mxplayermovies.netlify.app/"/>
 	<link rel="alternate" hreflang="en-ca" 	href="https://mxplayermovies.netlify.app/"/>

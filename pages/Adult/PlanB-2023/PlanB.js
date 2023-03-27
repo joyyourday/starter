@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -49,7 +50,7 @@ const schemaData   = {
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "MXplayer Movies™ Plan B - 2023 Full Movie Online Free | Watch Movies and TV-Series Online Free."
+  "description": "MXplayer Movies™ Plan B - 2023 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free."
 
 };
 const scrollSearch = myKey => {
@@ -71,13 +72,14 @@ function togglePopup() {
      <Head>
      <title>Watch  Plan B (2023) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,plan b movie,index of plan b movie,plan b movie 2023,plan b tv series,plan b movie online,watch plan b movie,dubbed movies,plan b movie download,plan b movie latest,plan b movie videos,plan b movie trailer,plan b movie cast,plan b movie story,plan b movie release date,plan b movie watch online free,plan b movie free download,plan b movie download" />
+  <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Plan B (2023)  | MXplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Adult/PlanB-2023/PlanB" />
 <meta property="og:image" content="https://mxplayermovies.netlify.app/plan-b-2023.webp" />
@@ -95,6 +97,7 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+
         <Translate/>
         <AdultSkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Movies Plan B (2023) </h1>

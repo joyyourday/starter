@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -49,7 +50,7 @@ const schemaData   = {
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "MXplayer Movies™ Walkman Part 3 - 2022 Full Movie Online Free | Watch Movies and TV-Series Online Free."
+  "description": "MXplayer Movies™ Walkman Part 3 - 2022 Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free."
 
 };
 const scrollSearch = myKey => {
@@ -71,13 +72,14 @@ function togglePopup() {
      <Head>
      <title>Watch Walkman P3 (2022) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,walkman part 3 movie,index of walkman part 3 movie,walkman part 3 movie 2023,walkman part 3 tv series,walkman part 3 movie online,watch walkman part 3 movie,dubbed movies,walkman part 3 movie download,walkman part 3 movie latest,walkman part 3 movie videos,walkman part 3 movie trailer,walkman part 3 movie cast,walkman part 3 movie story,walkman part 3 movie release date,walkman part 3 movie watch online free,walkman part 3 movie free download,walkman part 3 movie download" />
+  <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Walkman Part 3 (2022) | MXplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Adult/WalkManP3-2022/WalkManP3" />
 <meta property="og:image" content="https://mxplayermovies.netlify.app/walkman3-2022.webp" />
@@ -95,6 +97,7 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
+
         <Translate/>
         <AdultSkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Walkman Part 3 (2022) </h1>

@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -48,7 +49,7 @@ const schemaData   = {
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "MXplayer Movies™ Babuji Episode 1 (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free"
+  "description": "MXplayer Movies™ Babuji Episode 1 (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -69,13 +70,14 @@ function togglePopup() {
      <Head>
      <title>Watch Babuji EP 1 (2023) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,babuji movie,index of babuji movie,babuji movie 2023,babuji tv series,babuji movie online,watch babuji movie,dubbed movies,babuji movie download,babuji movie latest,babuji movie videos,babuji movie trailer,babuji movie cast,babuji movie story,babuji movie release date,babuji movie watch online free,babuji movie free download,babuji movie download" />
+  <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Babuji Episode 1 (2023) | MXplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Adult/Babuji-2023/BabujiP1" />
 <meta property="og:image" content="https://mxplayermovies.netlify.app/babuJi-2023.webp" />
@@ -120,13 +122,13 @@ function togglePopup() {
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 3
       </button></Link>
-    </div>
-</div>
+      </div>
+      </div>
+
    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../Babuji-2023/BBJSR1" > 
       <h1 >Click To Watch Babuji Episode 1 (2023) Server 2</h1></a></button>
-
-   
+     
   <div className="flex flex-col space-y-4 m-8">
     <Rating /></div>
     <div className="flex flex-col space-y-4 ...">

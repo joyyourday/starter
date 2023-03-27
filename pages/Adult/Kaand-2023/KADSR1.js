@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
+import SkipAds from '@components/SkipAds'
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
@@ -50,7 +51,7 @@ const schemaData   = {
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "MXplayer Movies™ Kaand Episode 1 (2023) Full Movie Online Free | Watch Movies and TV-Series Online Free."
+  "description": "MXplayer Movies™ Kaand Episode 1 (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free."
 
 };
 const scrollSearch = myKey => {
@@ -72,14 +73,15 @@ function togglePopup() {
      <Head>
      <title>Watch Kaand EP 1 (2023) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,kaand movie,index of kaand movie,kaand movie 2023,kaand tv series,kaand movie online,watch kaand movie,dubbed movies,kaand movie download,kaand movie latest,kaand movie videos,kaand movie trailer,kaand movie cast,kaand movie story,kaand movie release date,kaand movie watch online free,kaand movie free download,kaand movie download" />
+  <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
 
 <meta property="og:locale" content="en_US" />   
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
-<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies and TV-Series Online Free" />
+<meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
 <meta property="og:type" content="movie" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 <meta property="og:title" content="Watch Kaand Episode 1 (2023)  | MXplayer Movies™" />
 <meta property="og:url" content="https://mxplayermovies.netlify.app/Adult/Kaand-2023/KaandP1" />
 <meta property="og:image" content="https://mxplayermovies.netlify.app/kaand-2023.webp" />
