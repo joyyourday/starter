@@ -8,7 +8,7 @@ import {Carousel}  from "@components/ACarousel";
 function Most() {
   const [showAd, setShowAd] = useState(false);
   const [isClosed, setIsClosed] = useState(false);
-  const [remainingTime, setRemainingTime] = useState(30);
+  const [remainingTime, setRemainingTime] = useState(10);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -42,7 +42,7 @@ function Most() {
 
 
 
-<div class="flex bg-gray-500 bg-opacity-75 transition-opacity " >
+<div className="flex bg-gray-500 bg-opacity-75 transition-opacity " >
   <div className="carousel-inner relative w-full cursor-pointer mx-10 flex-col overflow-hidden " >
 
 

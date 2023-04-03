@@ -3,10 +3,10 @@
      
 import Head from "next/head"
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 import Image from "next/image";
-import SkipAds from '@components/SkipAds'
+
 
 
 const DownloadFAR2 = () => {
@@ -17,9 +17,9 @@ const DownloadFAR2 = () => {
 
 
   </Head>
-<Translate/>
+
            <div className="bg-gray-900 ">
-<SkipAds />
+
  
 
   <div className="flex flex-col items-center  justify-center space-y-12">

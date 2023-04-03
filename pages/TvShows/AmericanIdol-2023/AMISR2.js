@@ -2,12 +2,12 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-import SkipAds from '@components/SkipAds'
+
 import React, { useEffect, useState } from 'react';
 import WorldClock from '@components/WorldClock';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 
 const AMISR2  = () => {
@@ -29,7 +29,7 @@ const schemaData   = {
     "@id": "https://mxplayermovies.netlify.app/TvShows/AmericanIdol-2023/AmericanIdol"
     
   },
-  "headline": "American Idol - S21, EP6 (2023) Tv Show Online Free | MXplayer Movies™",
+  "headline": "American Idol - S21 (2023) Tv Show Online Free | MXplayer Movies™",
   "image": "https://mxplayermovies.netlify.app/american-idol.webp",
 
   "datePublished": '2023-01-01T09:00:00.000Z',
@@ -48,7 +48,7 @@ const schemaData   = {
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "MXplayer Movies™ American Idol - S21, EP6 (2023) Tv Show Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  "description": "MXplayer Movies™ American Idol - S21 (2023) Tv Show Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -69,9 +69,9 @@ function togglePopup() {
      <Head>
      <title>Watch American Idol (2023) Tv Show Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
+<meta name="keywords" content="MXplayer Movies,streaming,latest movies,online tv,latest free movies,watch latest movies online,latest Tv Shows online" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -86,7 +86,7 @@ function togglePopup() {
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Watch American Idol (2023)| MXplayer Movies™" />
 <meta name="twitter:image" content="https://mxplayermovies.netlify.app/american-idol.webp" />
-<meta name="description" content="Watch American Idol Tv Show Online on MXplayer Movies™, You can also download American Idol - S21, EP6 (2023) in full HD quality to watch later offline." />
+<meta name="description" content="Watch American Idol Tv Show Online on MXplayer Movies™, You can also download American Idol - S21 (2023) in full HD quality to watch later offline." />
 <script src="../../propler/ads.js" defer></script> 
 <link rel="canonical" href="https://mxplayermovies.netlify.app/TvShows/AmericanIdol-2023/" />
  
@@ -94,19 +94,19 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
-<SkipAds />
-        <Translate/>
+
+        
         <WorldClock />
         
-    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch American Idol - S21, EP6 (2023)</h1>
-    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Sunday 26th March 2023 - Schedule Time UK GMT+1 @ 01:00 </h2>
+    <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch American Idol - S21 (2023)</h1>
+    <h2 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Monday 03rd April 2023 - Schedule Time UK GMT+1 @ 01:00 </h2>
     <div className={styles['iframe-container']}>
-    <iframe class="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitAllowFullScreen mozallowfullscreen allowFullScreen" marginheight="0" marginwidth="0" src="https://daddylivehd.sx/embed/stream-51.php" name="iframe_a" scrolling="no" allowfullscreen="yes" width="100%" height="100%" frameborder="0"></iframe>
+    <iframe className="video responsive rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 webkitallowFullScreen mozallowFullScreen allowFullScreen" marginHeight="0" marginWidth="0" src="https://daddylivehd.sx/embed/stream-51.php" name="iframe_a" scrolling="no" allowFullScreen="yes" width="100%" height="100%" frameBorder="0"></iframe>
     </div>   
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
-    <a href="../AmericanIdol-2023/AMISR2" > 
-      <h2 >Click To Watch American Idol Server 2</h2></a></button>
+    <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    <a href="../AmericanIdol-2023/AmericanIdol" > 
+      <h2 >Click To Watch American Idol Server 1</h2></a></button>
     <div className="flex flex-col space-y-4 m-8">
     <Rating /></div>
     <div className="flex flex-col space-y-4 ...">
@@ -125,11 +125,12 @@ function togglePopup() {
  <div className="flex container flex-col items-center justify-center space-y-3 text-xl font-bold text-center text-yellow-100/50" >
 <h2 ><strong>Genre:</strong> Reality Tv, Game Show, Music.</h2>
 <h2 ><strong>Release year:</strong> 2023</h2>
-<h2 ><strong>Director:</strong>Production company - ABC USA </h2>
-<h2 ><strong>Creators :</strong> NA </h2>
+<h2 ><strong>Production Company:</strong> ABC USA  <img className=" relative inline-flex bg-white items-right justify-center rounded-3xl"  src='/abc.webp' alt='ABC USA (2023)'  width={50} height={100} loading="lazy"/>
+ </h2>
+<h2 ><strong>Creators :</strong> Simon Fuller </h2>
 <h2 ><strong>Country:</strong> USA </h2>
 <h2 ><strong>Starring:</strong> Ryan Seacrest, Mark Thompson, Randy Jackson, Simon Cowell, Paula Abdul, Jennifer Lopez, Katy Perry, Lionel Richie, Luke Bryan, Keith Urban, Kara DioGuardi, Steven Tyler, Harry Connick Jr.</h2>
-<h2 ><strong>Description:</strong>Twelve American finalists (six men and six women) compete in a singing contest.</h2>
+<h2 ><strong>Description:</strong> Twelve American finalists (six men and six women) compete in a singing contest.</h2>
 </div>
 <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
@@ -145,9 +146,9 @@ function togglePopup() {
                <button className="close-button" onClick={togglePopup}>
                <h2 className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 " >  Close</h2>  
           </button>
-          <h2 className="text-2xl font-bold" >Offical Trailer American Idol - S21, EP6 (2023)</h2>
+          <h2 className="text-2xl font-bold" >Offical Trailer American Idol - S21 (2023)</h2>
            <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbface.com/e/fab7d48h96wh.html" />
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbface.com/e/fab7d48h96wh.html" />
                    
              </div></div>
           </div>
@@ -189,7 +190,7 @@ function togglePopup() {
     </div>
 
 
- 
+    <div className="flex flex-col py-10  text-blue-600 text-center items-center justify-center">
 
 
 <Max />
@@ -201,7 +202,7 @@ function togglePopup() {
 </button></Link>
  < ShareThis async defer />
 </div>
-    </div> 
+    </div> </div>
   )
 }
 

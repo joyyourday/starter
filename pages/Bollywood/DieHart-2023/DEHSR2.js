@@ -2,12 +2,12 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-import SkipAds from '@components/SkipAds'
+
 
 import React, { useState, useEffect } from 'react';
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 
 
@@ -74,9 +74,9 @@ function togglePopup() {
      <Head>
      <title>Watch Die Hart The Movie (2023) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,die hart the movie movie,index of die hart the movie movie,die hart the movie movie 2023,die hart the movie tv series,die hart the movie movie online,watch die hart the movie movie,dubbed movies,die hart the movie movie download,die hart the movie movie latest,die hart the movie movie videos,die hart the movie movie trailer,die hart the movie movie cast,die hart the movie movie story,die hart the movie movie release date,die hart the movie movie watch online free,die hart the movie movie free download,die hart the movie movie download" />
+<meta name="keywords" content="MXplayer Movies,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch die hart the movie,index of die hart the movie,die hart the movie 2023,die hart the movie online,watch die hart the movie online free,die hart the tv series,die hart the movie download,die hart the movie free download,die hart the movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -97,15 +97,15 @@ function togglePopup() {
  
 
       </Head>
-<Translate/>
+
       <div className="bg-gray-900 ">
-<SkipAds />
+
      
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Die Hart The Movie (2023) </h1>
 
      
     <div className={styles['iframe-container']}>
-    <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://dood.yt/e/lpw29d3ps2um" />
+    <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://dood.yt/e/lpw29d3ps2um" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
@@ -150,7 +150,7 @@ function togglePopup() {
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Die Hart The Movie (2023) </h2>
           <div className={styles['iframe-container']}>
-          <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen  src="https://sbbrisk.com/e/eozz343tdbxe.html"  />
+          <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src="https://sbbrisk.com/e/eozz343tdbxe.html"  />
          
              </div> </div>
           </div>

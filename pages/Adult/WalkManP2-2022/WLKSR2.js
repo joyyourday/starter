@@ -2,12 +2,12 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-import SkipAds from '@components/SkipAds'
+
 import React, { useEffect, useState } from 'react';
 import styles from '@styles/video-player.module.css'
 import AdultSkipAds from '@components/AdultSkipAds'
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 
 
@@ -73,9 +73,9 @@ function togglePopup() {
      <Head>
      <title>Watch Walkman P2 (2022) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="keywords" content="mxplayer,mxplayer.in,mxplayer movies, watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies India, watch TV online, no download, full length movies, watch free movies, free movies to watch online, watch movies online free, free movies streaming, free movies full, free movies download, watch movies hd, movies to watch" />
+<meta name="keywords" content="MXplayer Movies,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch walkman part 2 movie,index of walkman part 2 movie,walkman part 2 movie 2023,walkman part 2 movie online,watch walkman part 2 movie online free,walkman part 2 tv series,walkman part 2 movie download,walkman part 2 movie free download,walkman part 2 movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -98,15 +98,15 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
-        <Translate/>
+        
          <AdultSkipAds />
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Walkman Part 2 (2022) </h1>
 
     <div className={styles['iframe-container']}>
-      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbhight.com/e/xatfdmeh65zn.html" />
+      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/xatfdmeh65zn.html" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
-   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
+    <button className="relative inline-flex items-center rounded-3xl justify-center mr-10 mb-5 px-10 mx-10  overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
     <a href="../WalkManP2-2022/WalkManP2" > 
       <h2 >Click To Watch Walkman Part 2 (2022) Server 1</h2></a></button>
     <div className="flex flex-col space-y-4 m-8">
@@ -144,7 +144,7 @@ function togglePopup() {
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Walkman Part 2 (2022) </h2>
            <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbhight.com/e/vin068ltv3hf.html" />
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/vin068ltv3hf.html" />
                    
              </div> </div>
           </div>

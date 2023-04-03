@@ -3,22 +3,22 @@
      
 import Head from "next/head"
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 import Image from "next/image";
-import SkipAds from '@components/SkipAds'
+
 
 const DownloadMCH1 = () => {
   return (
     <div>
            <div className="bg-gray-900 ">
-<SkipAds />
+
   <Head>
    <script src="../../propler/ads.js" defer></script>  
   
 
   </Head>
-<Translate/>
+
 
   <div className="flex flex-col items-center  justify-center space-y-12">
   <h2 className="text-blue-500  title-font mb-3 my-5 font-bold text-2xl ">

@@ -2,12 +2,12 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-import SkipAds from '@components/SkipAds'
+
 import React, { useEffect, useState } from 'react';
 ;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 
 
@@ -50,7 +50,7 @@ const schemaData   = {
         "url": "https://mxplayermovies.netlify.app/og_image.jpg"
       }
     },
-  "description": "MXplayer Movies™Ho Ja Mukt (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
+  "description": "MXplayer Movies™ Ho Ja Mukt (2023) Full Movie Online Free | Watch Movies, TV-Series & Sports Live Online Free"
 
 };
 const scrollSearch = myKey => {
@@ -71,9 +71,9 @@ function togglePopup() {
      <Head>
      <title>Watch Ho Ja Mukt (2023) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,ho ja mukt movie,index of ho ja mukt movie,ho ja mukt movie 2023,ho ja mukt tv series,ho ja mukt movie online,watch ho ja mukt movie,dubbed movies,ho ja mukt movie download,ho ja mukt movie latest,ho ja mukt movie videos,ho ja mukt movie trailer,ho ja mukt movie cast,ho ja mukt movie story,ho ja mukt movie release date,ho ja mukt movie watch online free,ho ja mukt movie free download,ho ja mukt movie download" />
+<meta name="keywords" content="MXplayer Movies,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch ho ja mukt movie,index of ho ja mukt movie,ho ja mukt movie 2023,ho ja mukt movie online,watch ho ja mukt movie online free,ho ja mukt tv series,ho ja mukt movie download,ho ja mukt movie free download,ho ja mukt movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -96,14 +96,14 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
-<SkipAds />
-        <Translate/>
+
+        
     
         
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Ho Ja Mukt (2023) </h1>
  
     <div className={styles['iframe-container']}>
-    <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen  src="https://dood.yt/e/ah8qyv5blaq7" />
+    <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen  src="https://dood.yt/e/ah8qyv5blaq7" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
    <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
@@ -148,7 +148,7 @@ function togglePopup() {
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Ho Ja Mukt (2023) </h2>
           <div className={styles['iframe-container']}>
-    <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbbrisk.com/e/z4gtot498r73.html" />
+    <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbbrisk.com/e/z4gtot498r73.html" />
                    
              </div>   </div>
           </div>

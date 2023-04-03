@@ -2,12 +2,12 @@
 import Link from 'next/link'
 import Rating from 'pages/Rating';
 import Head from 'next/head'
-import SkipAds from '@components/SkipAds'
+
 import React, { useEffect, useState } from 'react';
 ;
 import styles from '@styles/video-player.module.css'
 import Max from 'pages/Max';
-import Translate from '@components/Translate';
+
 import ShareThis from '@components/ShareThis';
 
 const VKVSR2  = () => {
@@ -69,9 +69,9 @@ function togglePopup() {
      <Head>
      <title>Watch Vikings Valhalla P1 (2023) Full Movie Online Free | MXplayer Movies™</title>
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<meta name="keywords" content="MXplayer Movies,full movie online free,HD movies,movie 2023,vikings valhalla movie,index of vikings valhalla movie,vikings valhalla movie 2023,vikings valhalla tv series,vikings valhalla movie online,watch vikings valhalla movie,dubbed movies,vikings valhalla movie download,vikings valhalla movie latest,vikings valhalla movie videos,vikings valhalla movie trailer,vikings valhalla movie cast,vikings valhalla movie story,vikings valhalla movie release date,vikings valhalla movie watch online free,vikings valhalla movie free download,vikings valhalla movie download" />
+<meta name="keywords" content="MXplayer Movies,watch free movies,full movie online free,hd movies,movie 2023,latest movie,dubbed movies,free movie download,watch vikings valhalla movie,index of vikings valhalla movie,vikings valhalla movie 2023,vikings valhalla movie online,watch vikings valhalla movie online free,vikings valhalla tv series,vikings valhalla movie download,vikings valhalla movie free download,vikings valhalla movie download" />
 <meta property="og:locale" content="en_US" />   
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
 <meta name="robots" content="index, follow" />  
 <meta name="revisit-after" content="1 days" />
 <meta property="og:site_name" content="MXplayer Movies™ | Watch Movies, TV-Series & Sports Live Online Free" />
@@ -94,26 +94,26 @@ function togglePopup() {
       </Head>
 
       <div className="bg-gray-900 ">
-<SkipAds />
-        <Translate/>
+
+        
     
         
     <h1 className="mb-4 py-5 font-bold leading-none tracking-tight text-white  text-center md:text-2xl lg:text-3xl dark:text-white">Watch Vikings Valhalla Part 1 (2023) </h1>
 
     <div className={styles['iframe-container']}>
-      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://dood.yt/e/jey5klcaphez" />
+      <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://dood.yt/e/jey5klcaphez" />
     </div>    
     <h3 className="mb-9 text-bg  text-black-500 text-red-600 text-center xl:px-4 ">*Note: Pls Select the in the Player to Change your Language of your Choice and Setting  to Change the Quality of Video.</h3>
    
-    <div class="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 mx-20 sm:grid-cols-2  x:grid-cols-3 gap-4">
     
-    <div class="flex justify-center  ">
+    <div className="flex justify-center  ">
     <Link href="../../Hollywood/VikingsValhalla-2023/VKVSR1">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 1
       </button></Link>
     </div>
-    <div class="flex justify-center">
+    <div className="flex justify-center">
     <Link href="../../Hollywood/VikingsValhalla-2023/VKVSR2">
   <button className="relative inline-flex items-center rounded-3xl my-5 justify-center p-0.5 mb-5 mr-2 overflow-hidden text-xl font-bold text-gray-900 group bg-gradient-to-br from-red-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 scale-100 hover:scale-110  cursor-pointer px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 group-hover:bg-opacity-0 ">
       Episode 2
@@ -162,7 +162,7 @@ function togglePopup() {
           </button>
           <h2 className="text-2xl font-bold" >Offical Trailer Vikings Valhalla (2023) </h2>
            <div className={styles['iframe-container']}>
- <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitAllowFullScreen mozallowfullscreen allowFullScreen src="https://sbhight.com/e/p5u45x96chi6.html" />
+ <iframe className="  rounded-3xl  mr-8 flex  border-1 border-blue-600 bg-gray-600 p-2 " webkitallowFullScreen mozallowFullScreen allowFullScreen src="https://sbhight.com/e/p5u45x96chi6.html" />
                    
              </div>
           </div></div>
