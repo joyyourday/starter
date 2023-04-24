@@ -5,8 +5,6 @@ import { PageTransition } from "../components/PageTransition";
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 import Script from 'next/script';
 import Maintenance from './maintenance';
-import PropTypes from 'prop-types';
-import Layout from '../components/Layout'
 
 function Application({ Component, pageProps, isMaintenanceMode }) {
   if (isMaintenanceMode) {
@@ -27,14 +25,12 @@ function Application({ Component, pageProps, isMaintenanceMode }) {
 
      </div>
      </Layout>
+     
    </>
   );
 }
 
-Application.propTypes = {
-  Component: PropTypes.elementType.isRequired,
-  pageProps: PropTypes.object.isRequired,
-};
+
 
 Application.getInitialProps = async (appContext) => {
   const isMaintenanceMode = process.env.REACT_APP_MAINTENANCE_MODE === "true";
@@ -44,5 +40,7 @@ Application.getInitialProps = async (appContext) => {
   }
   return { pageProps, isMaintenanceMode };
 };
+
+
 
 export default Application;
