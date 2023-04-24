@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://moviemxplayer.netlify.app/
-
-# Sitemaps
-Sitemap: https://moviemxplayer.netlify.app/sitemap.xml
